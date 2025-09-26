@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- TASK 1 -->
+<!-- semantic element header -->
+<header>
+<h1>Task 1 </h1>
+<p> oppty day2 task 1 </p>
+<!-- Navigation (semantic + list) -->
+<nav>
+<ul>
+ <li> <a href="#">HOME </a></li>
+  <li> <a href="#">ABOUT</a></li>
+  <li> <a href="#">CONTACT </a></li>
+</ul>
+
+</nav>
+</header>
+<!-- main   text formating  + list-->
+<main>
+<h1> <b><u><i>Text Formating : </i></u></b> </h1>
+<dl>
+<dt>Bold: </dt>
+<dd> it shows content in bold </dd>
+<dd>EX: <b>Oppty </b></dd>
+
+<dt>Italic : </dt>
+<dd> it shows content in italic style </style> </dd>
+<dd>EX: <i>Oppty </i></dd>
+
+<dt>Underline  : </dt>
+<dd> it  make underline </style> </dd>
+<dd>EX: <u>Oppty </u></dd>
+
+<dt> Strong  : </dt>
+<dd> it  is same  like bold  </style> </dd>
+<dd>EX: <strong>Oppty </strong></dd>
+
+<dt> code  : </dt>
+<dd> it is a font style which is same as code font </style> </dd>
+<dd>EX: <code>Oppty </code></dd>
+
+<dt> emphasized  : </dt>
+<dd> it is same as italic   </style> </dd>
+<dd>EX: <em>Oppty </em></dd>
+
+<dt> Mark  : </dt>
+<dd> it is mark the comtent    </style> </dd>
+<dd>EX: <mark>Oppty </mark></dd>
+
+<dt> pre : </dt>
+<dd> isplays text exactly as you write it    </style> </dd>
+<dd>EX: <pre>Oppty
+                 this 
+                    is   pre 
+</pre></dd>
+
+
+
+</dl>
+
+<!-- Links and Images -->
+
+<h1> <b><u><i>Link:</i></u></b> </h1>
+<p> links is used to navigate the page </p>
+<a href="https://x.com/home"> Twitter </a>
+
+<h1> <b><u><i>Image :</i></u></b> </h1>
+<p> images is used to diplay images in the browser</p>
+<img src="https://pbs.twimg.com/media/G1l0gdqXgAAPLQq?format=jpg&name=large" width="250px" height="250px" alt="Image not exits" title="lord Rama">
+
+<!--Tables -->
+
+<h1> <b><u><i>Table:</i></u></b> </h1>
+<p>  we can display the tables in the browser </p>
+   <h2>Table of user details : </h2>
+   <ol>
+         <li> tr: table row </li>
+        <li> th: table head </li>
+        <li> td: table data </li>
+   </ol>
+   <h3><u> User table:</u>  </h3>
+<table border="1" width="50%">
+<tr>
+<th>NAME</th>
+<th>CITY</th>
+<th>GENDER</th>
+</tr>
+
+<tr>
+<td>Hariinath</td>
+<td> Ananatapur</td>
+<td> Male</td>
+</tr>
+
+<tr>
+ <td>Ram</td>
+<td> Tadipatri</td>
+<td> Male</td>
+</tr>
+</table>
+
+<!--FORMS -->
+
+<h1> <b><u><i>Forms:</i></u></b> </h1>
+<p> forms is used to get data from user and store in data base</p>
+
+<h2> simple user form </h2>
+<form id="contact-form" action="#" method="post">
+        <!-- Label is associated with input via for/id (attribute) -->
+        <label for="name">Full name :</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+         <br><br>
+        <label for="email">Email address :</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com" required>
+         <br><br>
+        <label for="age">Age :</label>
+        <input id="age" name="age" type="number" min="0" max="120">
+         <br><br>
+        <label for="ads">Address :</label>
+        <textarea id="ads" name="bio" rows="4" placeholder="enter address ..."></textarea>
+         <br><br>
+        <fieldset >
+          <legend>Preferred contact</legend>
+          <label><input type="radio" name="contact_pref" value="email" checked> Email</label>
+          <label><input type="radio" name="contact_pref" value="phone"> Phone</label>
+        </fieldset>
+         
+        <label><input type="checkbox" name="subscribe"> Subscribe to newsletter</label>
+<br><br>
+        <!-- Submit and reset buttons -->
+        <div>
+          <button class="btn" type="submit">Send</button>
+          <button class="btn" type="reset">Reset</button>
+        </div>
+      </form>
+
+</main>
+<!--Footer-->
+<footer>
+
+<p>  <sup>the </sup>TASK<sub>1</sub>  END  </p>
+
+</footer>
+
+</body>
+</html>
