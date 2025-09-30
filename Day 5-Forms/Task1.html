@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{ align-items: center;}
+        form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+  }
+  
+  label {
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+  }
+    </style>
+</head>
+
+<body style="background-color: beige;">
+  
+        <h1 style="color: brown;">Registration Form </h1>
+        <hr>
+        <form action="#" method="post">
+
+            <label>Full Name: </label>
+            <input type="text" name="name" id="Nmae" placeholder="Enter Name" required><br><br>
+
+            <label>Email: </label>
+            <input type="email" name="mail" id="Mail" placeholder="Enter mail" required><br><br>
+
+            <label>PassWord: </label>
+            <input type="password" name="psw" id="psw" placeholder="xxxxxxxx"><br><br>
+
+            <label>Conform PassWord: </label>
+            <input type="password" name="pswd" required> <br><br>
+
+            <label>Gender: </label>
+            <input type="radio" name="gen">Male</input>
+            <input type="radio" name="gen">Female</input>
+            <input type="radio" name="gen">Others</input> <br><br>
+
+            <label>Hobbies : </label>
+            <input type="checkbox" name="hob">Games</imput>
+            <input type="checkbox" name="hob">Watching Movies</imput>
+            <input type="checkbox" name="hob">Songs</imput>
+            <input type="checkbox" name="hob">Books</imput>
+            <input type="checkbox" name="hob">Travelling</imput> <br><br>
+            
+
+            <label>Country : </label>
+            <select name="cou">
+                <option value="SELECT" disabled selected> --SELECT --</option>
+                <option value="India">India </option>
+                <option value="US"> USA</option>
+                <option value="Aus">Aatrailia</option>
+                <option value="Japan">Japan</option>
+                <option value="Pak">Pakistan</option>
+            </select>
+            <br><br>
+
+
+            <label>Uplode Profile Pic :</label>
+            <input type="file" name="file" value="Uplode">
+
+            <br><br>
+
+            <input type="submit" value="submit" name="sub"> &nbsp; &nbsp;
+
+            <input type="reset" value="Reset" name="reset">
+
+
+        </form>
+  
+</body>
+
+</html>
