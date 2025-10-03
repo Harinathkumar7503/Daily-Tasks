@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="Source/hnkProfilr.jpeg">
+
+    <style>
+        body {
+            background-color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: brown;
+            margin-bottom: 10px;
+        }
+
+
+        /* Header */
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* About section */
+        #about {
+
+            text-align: center;
+            padding: 20px;
+        }
+
+        #about img {
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+
+        /* Skills section */
+        #Skills {
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        #Skills progress,
+        #Skills meter {
+            width: 200px;
+            height: 15px;
+        }
+
+        /* Projects */
+        #Project {
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #333;
+            color: white;
+        }
+
+        tbody tr {
+            background: #f9f9f9;
+        }
+
+        /* Media section */
+        #media {
+            text-align: center;
+            padding: 20px;
+        }
+
+        video {
+            border: 2px solid #333;
+            border-radius: 8px;
+            width: 320px;
+        }
+
+        /* FAQ */
+        #faq {
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+
+        /* Contact */
+        #contact {
+            padding: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Harinath Kumar Yellappagari</h1>
+        <h3>Web Developer</h3>
+        <nav>
+            <a href="#about">About me</a>&nbsp; &nbsp; |
+            <a href="#Skills">Skills</a>&nbsp; &nbsp; |
+            <a href="#Project">Project</a>&nbsp; &nbsp; |
+            <a href="#contact">Contact </a>&nbsp; &nbsp;
+        </nav>
+    </header>
+    <!--Main -->
+
+    <main>
+        <!--about-->
+        <section id="about">
+            <h2>About me</h2>
+
+            <figure>
+                <img src="Source/hnkProfilr.jpeg" width="200" height="200" alt="image " title="HNK">
+                <figcaption>
+                    <p>Hello! I am <b>Harinath Kumar</b>, a passionate <b>Web Developer</b> with a strong foundation in
+                        <b>HTML, CSS, JavaScript, Java, and SQL</b>. I enjoy building clean, responsive, and
+                        user-friendly
+                        web applications. My goal is to become a versatile full-stack web developer who can design,
+                        develop,
+                        and deploy complete solutions.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <h2>Education Details</h2>
+            <h3>B.TECH </h3>
+            <p>I have Completed My B.tech In <strong>Computer Science and Enigineering (AI&ML)</strong> from
+                <b>Siddharth Institute Of Enigineering & Technology </b> puttur , in the year <b>2025</b>, with CGPA :
+                <b>8.35</b></p>
+            <h3>INTERMEDIATE</h3>
+            <p>I have Completed My intermediate In <strong>M.P.C</strong> from <b>A.P Model School and junior College
+                </b> Chilamakur, the Board of Intermediate Education, Andhra Pradesh, in <b>2025</b>,with<b>68.6%.</b>
+            </p>
+            <h3>S.S.C</h3>
+            <p>I have Completed My <abbr title="Secondary School Certification">SSC</abbr> from <b>A.P Model School and
+                    junior College </b> Chilamakur, Andhra Pradesh State Board <b>2025</b>,with GPA:<b>8.7</b> </p>
+        </section>
+
+        <!--Skills-->
+        <section id="Skills">
+            <h2>Skills</h2>
+
+            <p>HTML&nbsp;<progress value="90" max="100" title="90%"></progress><b>90%</b></p>
+            <p>CSS&nbsp;<progress value="70" max="100" title="70%"></progress><b>70%</b></p>
+            <p>Java&nbsp;<progress value="80" max="100" title="80%"></progress><b>80%</b></p>
+            <p>SQL&nbsp;<progress value="95" max="100" title="95%"></progress><b>95%</b></p>
+            <p>JavaScript&nbsp;<progress value="60" max="100" title="60%"></progress><b>60%</b></p>
+            </p>
+            <p>Overall &nbsp;<meter min="0" max="1" value="0.7"></meter><b>70%</b></p>
+        </section>
+
+        <!--projects-->
+        <section id="Project">
+
+            <h2>Projects</h2>
+            <table border="1" cellpading="5" cellspacing="0">
+
+                <thead>
+                    <tr>
+                        <th colspan="5"> Project Details</th>
+                    </tr>
+                    <tr>
+                        <th>S.NO</th>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Early Detection of Oral Canser</td>
+                        <td> Trin the Deep learing model with dataset to predect cancer</td>
+                        <td> 2025 </td>
+                        <td>---</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>UserWebApp</td>
+                        <td>A User CRUD App with users data </td>
+                        <td>2025</td>
+                        <td><a href="https://github.com/Harinathkumar7503/UserseWebAPP.git">GitHub</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>UserRegistraion</td>
+                        <td>AUserRegistraion CRUD App, users data store in database </td>
+                        <td>2025</td>
+                        <td><a href="https://github.com/Harinathkumar7503/User-login-Form.git">GitHub</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--Media-->
+        <section id="media">
+            <h1>Media</h1>
+            <h3>Intro about me</h3>
+            <video width="150" height="150" controls poster="Source/hnkProfilr.jpeg">
+                <source src="Source/VIDEO1.mp4" type="Video/mp4">
+                </source>
+            </video>
+        </section>
+
+        <!--FAQ-->
+        <section id="faq">
+            <h2>FAQ</h2>
+            <details>
+                <summary>What skills do you have?</summary>
+                <p>I am skilled in HTML, CSS, Java, and Machine Learning.</p>
+            </details>
+            <details>
+                <summary>How can I contact you?</summary>
+                <p>You can reach me via the Contact section above.</p>
+            </details>
+
+        </section>
+
+
+        <!--Contact -->
+
+
+        <section id="contact">
+            <h3>Contact information</h3>
+            <address>
+                Harinath Kumar<br>
+                Email:<a href="mailto:harinath7503@gmail.com"> harinath7503@gmail.com</a><br>
+                Phone: <a href="tel:919347876236">+91 9347876236</a>
+            </address>
+            <br><br><br><br>
+            <label>Name</label>
+            <input type="text" name="name" id="name" placeholder="enter name">
+            <br><br>
+            <form method="post">
+                <label>Email</label>
+                <input type="email" name="mail" placeholder="example123@g,ail.com"><br><br>
+                <label>Message:</label>
+                <textarea rows="3" cols="13" placeholder="Enter Message..."></textarea>
+                <br><br>
+                <input type="submit" value="Connect ME">
+            </form>
+        </section>
+
+
+    </main>
+    <footer>
+
+        <p>&copy; <time data-="2025">2025</time> Harinath Kumar , All Rights Reserved </p>
+
+    </footer>
+</body>
+
+</html>
