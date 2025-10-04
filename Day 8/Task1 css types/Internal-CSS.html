@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+<style>
+body{ background-color: azure;
+font-family: Verdana, Geneva, Tahoma, sans-serif; }
+header, footer {
+  background-color:#04AA6D;
+  color: white;
+   text-align: center;
+    border-radius: 5px
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+h3{
+    color: darkgreen;
+    text-align: left;
+}
+
+
+.links{ display: flex;
+   justify-content: center;          
+ list-style: none;
+                 }
+.links li{
+   background-color:cadetblue ;
+    margin: 10px 20px;
+    border-radius: 5px;
+   
+}
+.links li a{
+    padding: 20px;
+    color: rgb(1, 54, 1);
+    text-decoration: none;
+
+}
+a:hover{
+    color: brown;
+}
+div{
+
+    text-align: center;
+    border: 20;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: black;
+    background-color: cadetblue;
+   width: fit-content; 
+   margin: 40px ;
+}
+li{
+    padding: 10px;
+}
+address{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    background-color: bisque;
+   width: fit-content; 
+     margin: 40px ;
+      border-radius: 10px;
+} 
+address a{
+    text-decoration: none;
+    color:gray;
+}
+
+code{
+    color: white;
+}
+
+</style>
+</head>
+<body>
+    <header>
+      <h1 style="font-family:arial; font-style:italic;">Ways of applying CSS</h1>
+
+      <nav>
+            <ul class="links">
+                   <li><a href="https://www.w3schools.com/css/default.asp">HOME</a></li>
+                   <li><a href="#About">About</a></li>
+                   <li><a href="#support">Support</a></li>
+            </ul>
+      </nav>
+    </header>
+<main>
+
+      <section id="About">
+           <h1>About CSS Types</h1>
+           <p>they are three 3 ways to apply<b>CSS to HTML </b> elements</p>
+              <h3><i>Inline CSS:</i></h3>
+              <ul>
+                    <li><B>INLINE CSS</B> is the way of apply CSS to Html Elemnts.</li>
+                   <li>  here we use <b>style</b> tag as a atribute .</li>
+        
+            </ul>
+              <div >
+              <strong>EX:</strong><br>
+               <code> &lt;h1 style="color:red";&gt; hello  &lt;/h1&gt;  </code>
+               </div> 
+               
+
+              <h3><i>INTERNAL CSS:</i></h3>
+                 <ul>
+                    <li><B>INTERNAL CSS</B> is the way of apply CSS to Html Elemnts.</li>
+                   <li>  here we use <b>style</b> tag. </li>
+                   <li>Between <b>style</b>  tag we have to write CSS Propertys.</li>
+                  <li>the <b>style</b> tag is place Between  &lt;head&gt; tag  </li>
+            </ul>
+              <div>
+              <strong>EX:</strong><br>
+               <code> &lt;head&gt; <br>
+                  &lt;Style&gt;<br>
+                        <pre>body{    background-color:red;
+                            color:blue:
+                        }
+                        </pre>
+                     &lt;/Style&gt;<br>
+                 &lt;/head&gt;  </code>
+               </div> 
+  
+     <h3><i>EXTERNAL CSS:</i></h3>
+                 <ul>
+                    <li><B>EXTERNAL CSS</B> is the way of apply CSS to Html Elemnts.</li>
+                   <li>  here we create another file</li>
+                   <li>Inside the onther file we have to write CSS Propertys.</li>
+                  <lii>the <b>style</b> tag no need & save this file with <b>.css</b> extention</lii>
+                 <li>link this file with HTML file by  &lt;link&gt; tag</li>
+                  <div>
+                 <strong>EX:</strong><br>
+               <code> &lt;link type = "stylesheet"  href="example.css  &gt; 
+                 </code>
+               </div> 
+      </section>
+
+   <section id="support">
+
+    <h1>Support</h1>
+    <h3> for support <b>Contact </b>  </h3>
+    <address>
+        Harinath<br>
+        Email: <a href="mailto:harinath7503@gmail.com">harinath7503@gmail.com</a><br>
+        Phone:<a href="tel:919347876236">+91 9347876236</a><br>
+    </address>
+     
+    <h3>FULL Soucce </h3>
+      <p>  for complete Topics of <b>HTML,CSSS,JS,....ets</b> </p>
+       <b> visit <a href="https://www.w3schools.com/" >W3Schools</a></b>
+
+   </section>
+
+
+</main>
+<footer>
+    <p>&copy; 2025 Harinath Kumar All Rights Reserved</p>
+</footer>
+</body>
+</html>
