@@ -141,7 +141,7 @@
 
     .skill-box {
       background-color: white;
-      
+      color: rgb(170, 250, 223);
       border-radius: 10px;
       width: 200px;
       padding: 15px;
@@ -219,7 +219,9 @@
     }
 
     .ject:hover {
+      border-radius: 6px;
       box-shadow: 7px 10px 10px;
+      color: rgb(170, 250, 223);
     }
 
      /* contact */
@@ -281,6 +283,7 @@
     .mail img:hover{
         background-color: rgb(250, 189, 243);
       border-radius: 200px;
+      
     }
    .phone img:hover{
       background-color: rgb(250, 189, 243);
@@ -346,16 +349,19 @@
 
     input:hover {
       box-shadow: 7px 10px 10px;
+      color: rgb(170, 250, 223);
     }
 
     textarea:hover {
       box-shadow: 7px 10px 10px;
+      color: rgb(170, 250, 223);
     }
 
     .mail:hover {
       background-color: azure;
       box-shadow: 7px 10px 10px;
       border-radius: 6px;
+      color: rgb(170, 250, 223);
      
     }
    
@@ -363,6 +369,7 @@
       background-color: azure;
       box-shadow: 7px 10px 10px;
        border-radius: 6px;
+       color: rgb(170, 250, 223);
        
     }
 
