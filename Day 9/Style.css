@@ -130,8 +130,6 @@
 
     }
 
-
-
     .skills {
       display: flex;
       justify-content: space-around;
@@ -329,7 +327,6 @@
       margin-top: 5px;
       box-sizing: border-box;
 
-
     }
 
     input[type="submit"] {
@@ -405,3 +402,4 @@
       border-radius: 5px;
 
     }
+    
