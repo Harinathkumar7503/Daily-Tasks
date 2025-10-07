@@ -1,0 +1,400 @@
+ body {
+      background-color: rgb(249, 249, 249);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 10px 40px;
+    }
+
+    nav {
+      margin-top: 0px;
+
+    }
+
+    nav a {
+      padding: 20px 15px;
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 15px;
+      background-color: rgb(223, 124, 248);
+      margin-left: 10px;
+      text-decoration: none;
+      color: white;
+    }
+
+    nav a:hover {
+      background-color: rgb(140, 4, 174);
+      color: black;
+    }
+
+    header img {
+      margin-right: 10px;
+      border-radius: 60px;
+
+    }
+
+    .figure {
+      display: flex;
+      align-items: center;
+      /* vertically align */
+      justify-content: space-between;
+      gap: 50px;
+      /* space between text and image */
+      background: linear-gradient(to right, #f5e1ff, #ffffff);
+      border-radius: 20px;
+      padding: 50px 70px;
+      margin: 40px 0;
+    }
+
+    .fig h3 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .fig {
+      flex: 1;
+    }
+
+    .fig p {
+      color: #3f3f4a;
+      line-height: 1.8;
+    }
+
+    .figure img {
+
+      width: 300px;
+      height: 350px;
+      border-radius: 20px;
+      box-shadow: 6px 7px 20px rgba(66, 64, 64, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.2em;
+      color: #8000ff;
+      margin-bottom: 40px;
+    }
+
+    .education {
+
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+
+    }
+
+    .Btech,
+    .inter,
+    .ssc {
+      background-color: rgb(204, 157, 216);
+      /*linear-gradient(to right, #e1a8fd, #f59a9a);*/
+      border-radius: 20px;
+      padding: 10px;
+    }
+
+    .Btech:hover {
+      color: #ea0307;
+      background-color: white;;;
+       box-shadow:  7px 10px 10px;
+
+    }
+
+    .inter:hover {
+      color: #ea0307;
+       background-color: white;;
+        box-shadow:  7px 10px 10px;
+
+    }
+
+    .ssc:hover {
+      color: #ea0307;
+       background-color: white;;;
+        box-shadow:  7px 10px 10px;
+    }
+
+    /* Skills Section */
+
+    #Skills {
+      text-align: center;
+      margin: 40px 20px;
+      padding: 20px;
+      background-color: #f7f3ff;
+      border-radius: 10px;
+
+    }
+
+
+
+    .skills {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .skill-box {
+      background-color: white;
+      
+      border-radius: 10px;
+      width: 200px;
+      padding: 15px;
+    }
+
+    .skill-box:hover {
+      border: #0b13f7;
+      border-width: 5px;
+       box-shadow:  7px 10px 10px;
+    }
+
+    .skill-box h3:hover {
+      color: crimson;
+    }
+
+
+    .skill-box h3 {
+      color: rgb(120, 0, 220);
+      margin-bottom: 10px;
+    }
+
+    .skill-box p {
+      color: #333;
+      font-size: 14px;
+    }
+    /* Project */
+    #Project {
+      background-color: #f7f7fa;
+      padding: 60px 80px;
+      border-radius: 10px;
+      text-align: left;
+      display: block;
+    }
+
+    #Project h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 25px;
+    }
+
+    #Project p {
+      color: #7a7a8a;
+      font-size: 18px;
+      line-height: 1.8;
+      max-width: 900px;
+    }
+
+    .ject {
+      background-color: #ffffff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      margin-top: 25px;
+    }
+
+    .ject h3 {
+      color: #0b0b0b;
+      font-size: 1.6em;
+      margin-bottom: 15px;
+    }
+
+    .ject p {
+      color: #3f3f4a;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    .pro {
+      margin-bottom: 40px;
+    }
+
+    .pr0 {
+      color: #7a7a8a;
+    }
+
+    .ject:hover {
+      box-shadow: 7px 10px 10px;
+    }
+
+     /* contact */
+
+    #contact {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      background-color: #f8d5f9;
+      border-radius: 5px;
+    }
+
+    .contacttt,
+    .info {
+      width: 48%;
+      flex: 1;
+      border-radius: 10px;
+      padding: 25px;
+      box-sizing: border-box;
+
+    }
+
+    .contacttt h3 {
+      color: #0b0b0b;
+      font-size: 1.6em;
+      margin-bottom: 15px;
+    }
+
+    .contacttt p {
+      color: #3f3f4a;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    .contacttt h4 {
+      margin-left: 20px;
+      font-size: 19px;
+    }
+
+    .mail {
+      display: flex;
+
+    }
+
+    .mail img {
+
+      padding: 30px;
+    }
+
+    .phone {
+      display: flex;
+    }
+
+    .phone img {
+      padding: 30px;
+    }
+      
+    .mail img:hover{
+        background-color: rgb(250, 189, 243);
+      border-radius: 200px;
+    }
+   .phone img:hover{
+      background-color: rgb(250, 189, 243);
+      border-radius: 200px;
+   }
+
+
+
+    .phone a,
+    .mail a {
+      text-decoration: none;
+      font-size: 19px;
+      color: #0b6cfe;
+      font-weight: bold;
+    }
+
+    .info {
+
+      margin-left: 10px;
+      padding-top: 30px;
+      text-align: left;
+
+    }
+
+    .info p {
+      color: #3f3f4a;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    label {
+      color: #02025f;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 6px;
+      border: none;
+      margin-top: 5px;
+      box-sizing: border-box;
+
+
+    }
+
+    input[type="submit"] {
+      background-color: #8000ff;
+      border-radius: 5px;
+      padding: 20px;
+      color: #d4f3f8;
+      border: #d4f3f8;
+      font-size: 17px;
+
+    }
+
+    input[type="submit"]:hover {
+      background-color: azure;
+      color: #8000ff;
+    }
+
+    input:hover {
+      box-shadow: 7px 10px 10px;
+    }
+
+    textarea:hover {
+      box-shadow: 7px 10px 10px;
+    }
+
+    .mail:hover {
+      background-color: azure;
+      box-shadow: 7px 10px 10px;
+      border-radius: 6px;
+     
+    }
+   
+    .phone:hover {
+      background-color: azure;
+      box-shadow: 7px 10px 10px;
+       border-radius: 6px;
+       
+    }
+
+   /* footer */
+
+   
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #272626;
+      padding: 10px 40px;
+      color: white;
+      border-radius: 5px;
+
+    }
+
+    .foimage img {
+      border-radius: 60px;
+    }
+
+    .navv a {
+
+      padding: 10px;
+      color: rgb(248, 244, 244);
+      text-decoration: none;
+
+    }
+
+    .navv a:hover {
+      background-color: #d3b3ff;
+      color: rgb(0, 0, 0);
+      border-radius: 5px;
+
+    }
