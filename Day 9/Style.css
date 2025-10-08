@@ -398,8 +398,10 @@
 
     .navv a:hover {
       background-color: #d3b3ff;
-      color: rgb(0, 0, 0);
+      color: rgb(16, 16, 16);
       border-radius: 5px;
+      
 
     }
+    
     
