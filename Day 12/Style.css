@@ -4,13 +4,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; /* keeps it above other elements */
-  background-color: #fff; /* add your header background color */
+  z-index: 1000; 
+  background-color: #fff; 
 }
 
-/* to prevent content hiding behind header */
+
 body {
-  padding-top: 80px; /* adjust based on header height */
+  padding-top: 80px; 
    font-family: "Work Sans", sans-serif;
          background-color: rgb(249, 249, 249);
 }
@@ -71,15 +71,16 @@ body {
     }
     /*- ----------------------------about  ------------------------------------------   --*/
     
-    main{
+     main{
       border-radius: 5px;
-       background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #da4df166 5%, #0000 30%),
+       background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #c546db66 5%, #0000 30%),
           radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%);
 
-    
    
+  }
    /* radial-gradient(circle at 110% 30%, rgba(196, 245, 233, 0.698) 5%, rgba(0, 0, 0, 0) 25%) ;*/
-    }
+      
+
     .about{
         display: flex;
         gap: 60px;
@@ -459,7 +460,7 @@ padding: 20px;
 }
 
 
-
+/*
 .tool{
  background-color: #ffffff;
   text-align: center;
@@ -482,6 +483,42 @@ padding: 20px;
 }
 
 /* contact */
+
+
+
+.tool {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 80px 0px;
+  border-radius: 10px;
+}
+
+.tool h1 {
+  font-size: 40px;
+  color: rgb(36, 35, 35);
+  margin-bottom: 16px;
+}
+
+.tool p {
+  width: 80%;
+  max-width: 900px;
+  color: #3f3f4a;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.tool .tag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
 
     #contact {
       display: flex;
