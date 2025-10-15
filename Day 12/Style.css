@@ -13,6 +13,7 @@ body {
   padding-top: 80px; 
    font-family: "Work Sans", sans-serif;
          background-color: rgb(249, 249, 249);
+          
 }
 
     body{
@@ -24,7 +25,7 @@ body {
         justify-content: space-between;
          padding: 10px 40px;
        align-items: center;
-     background-color: rgb(249, 249, 249);
+     background-color: rgb(217, 217, 224);
      
 
     }
@@ -62,7 +63,7 @@ body {
     }
 
     nav a:hover{
-        background-color:rgb(219, 222, 223);
+        background-color:rgb(243, 245, 245);
         color: blueviolet;
     }
     .conlink a:hover{
@@ -85,7 +86,7 @@ body {
         display: flex;
         gap: 60px;
      border-radius: 20px;
-      padding: 80px;
+      padding: 60px;
       justify-content: space-between;
       gap: 40px;
 
@@ -108,9 +109,7 @@ body {
    
     .abimage img{
         border-radius: 25px;
-      
-       border-radius: 25px;
-    margin-left: 0;
+    margin-left: 90px;
   margin-top: 30px;
     }
     
@@ -137,7 +136,7 @@ border-collapse: collapse;
 }
 .row{
     margin-left: 15px;
-    width: 180px;
+    max-width:  180px;
     height: 60px;
     background-color:rgb(225, 194, 235);
     padding: 15px;
@@ -145,7 +144,11 @@ border-collapse: collapse;
 }
 .row2{
     line-height: 0px;
-    width: auto;
+    width: 150px;
+    
+}
+.row2 p{
+  margin-top: 10px;
 }
 /*----------------details part-------------------*/
 
@@ -183,7 +186,8 @@ border-collapse: collapse;
 .data{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 30px;
+  
 }
 
    .dow {
@@ -192,10 +196,11 @@ border-collapse: collapse;
     text-align: center;
     border-radius: 5px;
     align-items: center;
-    height: 50px;
+    height: 40px;
     width: 150px;
-    margin-right: 170px;
+    margin-left:  30px;
     border: 2px solid transparent; 
+    margin-top: 19px;
    
 }
 
@@ -321,6 +326,7 @@ color: #3f3f4a;
 .portfolio{
   width: auto;
   background-color: white ;
+ 
 }
 .part1{
   text-align: center;
@@ -341,11 +347,12 @@ color: #3f3f4a;
   padding-top: 30px;
   display: flex;
   margin: 10px;
-  width: 600px;
+ max-width: 300px;
+
 }
 .part2 .card{
-  margin-left: 25px;
-   
+  margin: 15px;
+  
 }
 .cardtopic{
   padding: 32px;
@@ -365,10 +372,10 @@ border-radius: 5px;
  
 }
 .h3 a{
-  text-decoration: none;
-  font-weight: bold;
- color: oklch(0.21  0.006 285.885);
-  font-size: 16px;
+text-decoration: none;
+font-weight: bold;
+color: oklch(0.21  0.006 285.885);
+font-size: 16px;
 }
 .h3:hover {
    border: 2px solid  rgb(141, 61, 179);
@@ -420,6 +427,7 @@ padding: 20px;
   color: rgb(92, 10, 168);
   width: 270px;
    border-radius: 8px;
+   letter-spacing: 1px;
     box-shadow: 1px 20px 20px 0px #121111;
    
 }
@@ -617,8 +625,6 @@ padding: 20px;
       margin-top: 5px;
       box-sizing: border-box;
     }
-  
-
 
     input[type="submit"] {
       background-color: #9e66d6;
@@ -703,7 +709,8 @@ footer {
     .flink a:hover{
       text-decoration: underline;
       text-decoration-color: #9925e1;
-
       text-decoration-thickness: 4px;
 
     }
+    
+    
