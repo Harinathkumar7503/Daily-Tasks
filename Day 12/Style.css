@@ -74,13 +74,17 @@ body {
     
      main{
       border-radius: 5px;
-       background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #c546db66 5%, #0000 30%),
-          radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%);
+       /* background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #c546db66 5%, #0000 30%),
+          radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%); */
 
    
   }
    /* radial-gradient(circle at 110% 30%, rgba(196, 245, 233, 0.698) 5%, rgba(0, 0, 0, 0) 25%) ;*/
-      
+    #about{
+       background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #c546db66 5%, #0000 30%),
+          radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%);
+
+    }
 
     .about{
         display: flex;
@@ -307,7 +311,6 @@ color: #3f3f4a;
  margin-top: 30px;
 
 }
-
 .roww22{
    margin-top: 30px;
 }
@@ -324,9 +327,9 @@ color: #3f3f4a;
 
 /*-----------------------------------------------Project -------------------------------*/
 .portfolio{
-  width: auto;
+  width: 100%;
   background-color: white ;
- 
+  
 }
 .part1{
   text-align: center;
@@ -336,23 +339,26 @@ color: #3f3f4a;
 .part1 h2{
  color: oklch(0.21 0.006 285.885);
  font-size: 48px;
-
 }
+
 .part1 p{
   color:oklch(0.707 0.022 261.385);
   margin-top: 1px;
   font-size: 18px;
 }
+
 .part2{
   padding-top: 30px;
   display: flex;
   margin: 10px;
- max-width: 300px;
+ /* max-width: 300px; */
+   /* width: 100%; */
 
 }
 .part2 .card{
   margin: 15px;
-  
+    /* width: 100%; */
+
 }
 .cardtopic{
   padding: 32px;
@@ -386,6 +392,7 @@ font-size: 16px;
 }
 .cardtopic:hover{
     box-shadow: 1px 20px 20px 0px #a09b9b;
+   
  border-radius: 8px;
 }
 .endh1 h3{
@@ -423,39 +430,43 @@ padding: 20px;
    text-decoration: none;
 
 }
+
 .doyou h3:hover{
   color: rgb(92, 10, 168);
   width: 270px;
    border-radius: 8px;
    letter-spacing: 1px;
     box-shadow: 1px 20px 20px 0px #121111;
-   
 }
+
 #service{
    background-color: #f7f7fa;
       padding: 130px 16px;
       border-radius: 10px;
       text-align: left;
       display: flex;
-   
+      justify-content: space-between;
 }
+
 #service h1{
  font-size: 2.5em;
       font-weight: bold;
       color: #000;
       margin-bottom: 25px;
-
 }
+
 #service p{
    color: #7a7a8a;
       font-size: 18px;
       line-height: 1.8;
-      max-width: 900px;
+          max-width: 1000px;
 }
+
 .Serve{
   padding: 0px 143px 0px 0px;
   margin-top: 150px;
 }
+
 .ject{
   background-color: #ffffff;
   border-radius: 8px;
@@ -463,36 +474,11 @@ padding: 20px;
   margin:24px 0px;
 }
 .ject:hover{
-  box-shadow:1px 1px 15px 13px #bfb9b9;
-  border-left: 4px solid rgb(190, 35, 224);
-}
-
-
-/*
-.tool{
- background-color: #ffffff;
-  text-align: center;
-  padding: 100px 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.tool h1{
-   font-size: 38px;
-   margin: 0px 0px 24px;
-}
-.tool p{
-  color: #87909D;
-  font-size: 18PX;
- width: 577px;
-  text-align: center;
-
+  box-shadow: 1px 20px 20px 0px #a09b9b;
+  border-left: 2px solid rgb(190, 35, 224);
 }
 
 /* contact */
-
-
 
 .tool {
   text-align: center;
@@ -527,6 +513,9 @@ padding: 20px;
   margin: 40px 0;
 }
 
+marquee:hover{
+  animation-play-state: paused;
+}
 
     #contact {
       display: flex;
@@ -535,10 +524,14 @@ padding: 20px;
       gap: 20px;
       background-color: #ffffff;
       padding: 88px;
-      box-shadow: 0px 16px 20px 18px #a09b9b;
+   
       border-radius: 8px;
       bottom: 30px;
       top: 60px;
+
+       margin-bottom: 0; 
+  position: relative;
+  z-index: 2; 
     }
 
     .contacttt,
@@ -586,10 +579,6 @@ padding: 20px;
       padding: 30px;
     }
       
-    
-
-
-
     .phone a,
     .mail a {
       text-decoration: none;
@@ -654,10 +643,18 @@ padding: 20px;
 .conicon i{
   margin: 20PX;
   color: #600db3;
+   padding: 5px;
 }
 .conicon i:hover{
   background-color: #9e66d6;
   color:white
+}
+
+
+.mail:hover, .phone:hover{
+  background-color: #ffffff;
+     box-shadow: 0px 0px 7px 2px #b8b4b4;
+  border-radius: 10px;
 }
 /*-----------------------------------------------------------------*/
 footer {
@@ -668,6 +665,10 @@ footer {
       padding: 160px 0px 0px;
       color: white;
       border-radius: 5px;
+
+       margin-top: 0; /* Remove top gap */
+  position: relative;
+  z-index: 1;
       
     }
     .footer {
@@ -713,4 +714,7 @@ footer {
 
     }
     
-    
+    .dummy{
+      background-color: #272626;
+      padding: 40px;
+    }
