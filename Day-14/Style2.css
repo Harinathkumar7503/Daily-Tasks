@@ -1,0 +1,112 @@
+
+        .body{
+            width: 100%;
+             font-family: "Work Sans", sans-serif;
+        }
+        .head{
+            display: flex;
+           align-items: center;
+            background-color: rgb(55, 55, 55);
+            justify-content: space-between;
+        }
+        .logo{
+            display: flex;
+            margin-left: 70px;
+            align-items: center;
+        }
+        .logo img{
+            border-radius: 50%;
+            border: 1px solid  rgb(72, 222, 227);
+        }
+        .logo h1{
+            margin-left: 20px;
+            color: rgb(72, 222, 227);
+            font-size: 40px;
+            font-style: italic;
+        }
+        .links{
+            font-size: 19px;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            margin-right: 150px;
+            
+        }
+         .links a{
+            padding: 15px;
+             text-decoration: none;
+             margin: 20px;
+             color: rgba(4, 254, 254, 0.763);
+             text-align: center;
+            
+         }
+         .main{
+            background-color: white;
+          
+            padding: 120px;
+            height: 700px;
+            align-items: center;
+         }
+     
+          .container{
+                background-color: rgb(223, 216, 216);
+                display: grid;
+                 grid-template-columns: repeat(8, 1fr); 
+                padding: 30px;
+                 grid-auto-rows: 80px; 
+                 border-radius: 8px;
+                  box-shadow: 0px 0px 7px 2px #b8b4b4;
+          }
+         .row1,.row8,.row3,.row4,.row5,.row6,.row7,.row2{
+                border: 1px solid rgb(24, 24, 24);    
+                text-align: center;  
+                font-size: 20px;
+         }
+         .row7,.row8{
+            color: white;
+          
+         }
+         :root{
+            --bgc-color:rgb(176, 176, 236);
+            --bgc-color2: rgb(105, 105, 249);
+         }
+        
+      .about{
+        text-align: center;
+        padding: 40px;
+         
+      }
+    .about h1{
+        font-size: 42px;
+        color: brown;
+      
+    }
+    .about p{
+        width: 50%px;
+        font-size: 20px;
+        color: rgb(51, 50, 50);
+        padding: 20px;
+    }
+    .more {
+        display: flex;
+        justify-content: center;
+
+    }
+    .play button{
+        background-color:  rgb(105, 230, 230);
+        color: rgb(201, 28, 28);
+        padding: 25px;
+        font-size: 18px;
+        margin-left: 80px;
+        border-style: none;
+        border-radius: 6px;
+    }
+    .get button{
+        background-color: rgb(105, 230, 230);
+        color: rgb(201, 28, 28);
+        font-size: 18px;
+        padding: 25px;
+        border-style: none;
+        margin-left: 80px;
+        border-radius: 6px;
+    }

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightmode</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        font-family: "Work Sans", sans-serif;
+    }
+    :root{
+        --color: white;
+        --blue: blue;
+        --bk-color:#f1f1f1;
+        --bgcolor2: rgb(219, 219, 228);
+       --paracolor: #494949;
+       --lightblue: rgb(117, 117, 236);
+       
+    }
+header
+{
+          position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+    }
+.head{
+    display: flex;
+    align-items: center;
+    background-color:var(--color);
+    justify-content: space-between;
+}
+.we h1{
+    color: var(--blue);
+    margin-left: 300px;
+    text-align: center;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+   margin-right: 100px;
+   padding:10px ;
+   text-align: center;
+}
+.link a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: var(--blue);
+  background-color: var(--color);
+   padding: 20px;
+   font-size: 30px;
+   width: 100px;
+   
+
+}
+.ab{
+    background-color: var(--bgcolor2);
+    padding: 70px;
+   align-items: center;
+   text-align: justify;
+}
+.ab h2{
+    font-style: italic;
+    
+}
+.ab p{
+    font-size: 18px;
+    color: var(--paracolor)
+}
+.ab h2{
+    font-weight: 800;
+    color: var(--paracolor)
+}
+.form{
+    padding:80px;
+}
+.container{
+    padding: 50px;
+   text-align: center;
+}
+
+
+    
+input {
+  border: none;
+  
+  border-bottom: 2px solid var(--blue);
+  line-height: 1.8;
+  font-size: 19px;
+  width: 55%;
+  padding: 18px;
+  border-radius: 6px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  color: var(--blue);
+}
+input::placeholder{
+    color: black;
+
+}
+.container label{
+    font-size: 20px;
+}
+
+input[type="file"],input[type="submit"],input[type="reset"] {
+  border-style: none;
+
+}
+input[type="submit"],input[type="reset"] {
+    font-weight: 800;
+    font-size: 17px;
+    background-color: var(--lightblue);
+    color: white;
+    
+}   
+footer{
+ background-color: var(--bk-color);
+ text-align: center;
+ padding :20px;
+}
+footer p{
+    font-size: 18px;
+}
+.li a{
+    border-bottom: 2px solid var(--blue);
+    
+}
+.li a:hover {
+  border-style: none;
+  
+}
+.dar a:hover {
+  
+  border-bottom: 2px solid var(--blue);
+}
+
+</style>
+<body>
+<header>
+   
+      <div class="head">
+       <div class="we">
+        <h1> Noukari </h1>
+       </div>
+       
+        <div class="link">
+            <div class="li">
+          <a href="lightmode.html" target="_self">&#9681 </a>
+            </div>
+            <div class="dar" >
+          <a href="darkmode.html" target="_self">&#9680</a></div>
+        </div>
+      </div>
+
+     
+        
+</header>
+ 
+
+<div class="ab">
+    <h1> Web Developer </h1>
+    <h2> Job Description </h2>
+
+    <p>A Web Developer designs, builds, and maintains websites and web applications.
+They use HTML, CSS, JavaScript, and backend technologies to create responsive, user-friendly sites.
+Their work involves coding, testing, and optimizing website performance.
+They collaborate with designers and teams to deliver smooth digital experiences.</p>
+</div>
+
+<div class="form">
+
+    <div class="container">
+        <form action="#" method="post">
+           
+            <input type="text" placeholder="Name *" id="name"><br><br>
+
+            <input type="email" placeholder="Email *" id="mail"><br><br>
+            
+            <input type="number" placeholder="Phone *"  id="num"><br><br>
+
+           <input type="text" placeholder="Educatio *"  id="ed"><br><br>
+
+           <input type="text" placeholder="College *"  id="clg"><br><br>
+
+           <input type="branch" placeholder="Major *"  id="major"><br><br>
+            <lable>Upload Resume</lable> <br>
+            <input type="file" placeholder="Resume *"  id="resume"><br><br>
+            
+            <input type="submit"  value="Submit"> <br><br>   <input type="reset"  value="Reset"> 
+
+        </form>
+
+    </div>
+
+
+
+</div>
+<footer>
+    <p>&copy; All Right Resevred By Noukari</p>
+</footer>
+</body>
+</html>
