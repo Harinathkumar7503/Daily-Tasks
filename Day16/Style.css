@@ -20,7 +20,7 @@
 
         .head {
             margin-left: 180px;
-        }
+      }
 
         nav {
             padding: 20px;
@@ -202,8 +202,13 @@
             color: black;
                transform:scale(1.6) rotate(360deg);
         }
-        .a5:hover{
 
+        .a5{
+               transition: background-color 2s ease-in-out 2s, color 2s ease-in-out 2s ;
+        }
+        .a5:hover{
+             background-color: azure;
+            color: black;
           animation: float 2s ease-in-out infinite;
     }
 
@@ -211,4 +216,10 @@
       0% { transform: translateY(0); }
      50% { transform: translateY(-20px); } 
       100% { transform: translateY(0); } 
+    }
+    footer{
+        background-color: var(--color-bg);
+        color: var(--font-color);
+        padding: 20px;
+        text-align: center;
     }
