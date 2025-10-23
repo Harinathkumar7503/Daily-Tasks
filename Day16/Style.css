@@ -1,0 +1,214 @@
+
+         :root {
+            --color-bg: darkgreen;
+            --font-color: white;
+
+        }
+        body{
+        
+  font-family: "Work Sans";
+  background-color: rgb(249, 249, 249);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--color-bg);
+            align-items: center;
+            color: var(--font-color);
+        }
+
+        .head {
+            margin-left: 180px;
+        }
+
+        nav {
+            padding: 20px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: var(--font-color);
+
+        }
+
+        #an {
+            border-bottom: 2px solid var(--font-color);
+        }
+
+        nav a:hover {
+            border-bottom: 2px solid var(--font-color);
+        }
+        
+         .con {
+            padding: 80px;
+         
+        }
+
+        .row1 {
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            
+        }
+        .row1 p{
+            color: black;
+            }
+            
+        .row1 h1 {
+
+            color: var(--color-bg);
+           
+        }
+        .conn{
+           padding: 80px;
+            background-color: rgb(214, 237, 214);
+            display: flex;
+            justify-content: space-between;
+         flex: 1;
+            font-size: 25px;
+            gap: 50px;
+        }
+        .conn h2{
+            color: var(--color-bg);
+            font-size: 25px;
+        }
+        .conn h3{
+             
+            font-size: 20px;
+        }
+        .conn p{
+            color: rgb(65, 66, 69);
+        }
+         .row2,.row3{
+           padding: 40px;
+        }
+        .row3{
+            margin-left: 120px;
+        }
+        i{
+            font-size: 18px;
+
+        }
+        .exa{
+            padding: 90px;
+           text-align: center;
+        }
+        .exa h1{
+            color: var(--color-bg);
+
+        }
+        .exa p{
+            font-size: 20px;
+            width: 30%;
+            padding: 15px;
+           text-align: center;
+           margin-left: 380px;
+           border-radius: 8px;
+           background-color: rgb(206, 239, 240);
+           transition: background-color 4s ease-in-out 1s, color 4s ease-in-out, transform 2s ease-in-out;
+        }
+        .exa p:hover{
+            background-color:var(--color-bg);
+            color: var(--font-color);
+            transform: scale(1.1);
+        }
+
+        .examples{
+            padding: 40px;
+            background-color: rgb(212, 211, 211);
+        }
+        .examples p{
+            font-size: 23px;
+             color: black;
+        }
+        .E1,.E2,.E3,.E3,.E4,.E5,.E6{
+            display: flex;
+            /* justify-content: center; */
+          
+            gap: 50px;
+        }
+        .q1,.q2,.q3,.q4,.q5,.q6{
+            width: 50%;
+            padding: 20px;
+            margin: 20px;
+            
+        }
+        
+        .a1,.a2,.a4,.a5,.a6,.a3{
+              
+            background-color: var(--color-bg);
+            color: var(--font-color);
+            text-align: center;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 8px;
+             margin-left: 60px;
+        }
+        .a4{
+            border-radius: 50%;
+        }
+        .a3,.a4,.a5,.a6{
+            height: 80px;
+        }
+        .a3{
+            border: 2px solid var(--font-color);
+        }
+        .a1{
+            transition: background-color 2s ease-in-out 2s, color 2s ease-in-out, transform 2s ease-in-out ;
+        }
+        .a1:hover{
+            background-color: azure;
+            color: black;
+            transform: translateX(60px);
+        }
+        .a2{
+             transition: background-color 2s ease-in-out 2s, color 2s ease-in-out, transform 2s ease-in-out ;
+        }
+        .a2:hover{
+             background-color: azure;
+            color: black;
+               transform:rotate(125deg)
+        }
+
+
+         .a3{
+             transition: background-color 2s ease-in-out 2s, color 2s ease-in-out, transform 2s ease-in-out ;
+        }
+        .a3:hover{
+             background-color: azure;
+            color: black;
+               transform:scale(1.2);
+        }
+
+
+         .a4{
+             transition: background-color 2s ease-in-out 2s, color 2s ease-in-out, transform 2s ease-in-out ;
+        }
+        .a4:hover{
+             background-color: azure;
+            color: black;
+               transform:rotate(360deg) scale(0.2);
+        }
+
+        .a6{
+             transition: background-color 2s ease-in-out 2s, color 2s ease-in-out, transform 2s ease-in-out ;
+        }
+        .a6:hover{
+             background-color: azure;
+            color: black;
+               transform:scale(1.6) rotate(360deg);
+        }
+        .a5:hover{
+
+          animation: float 2s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+     50% { transform: translateY(-20px); } 
+      100% { transform: translateY(0); } 
+    }
