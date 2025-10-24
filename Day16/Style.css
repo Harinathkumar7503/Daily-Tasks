@@ -101,7 +101,7 @@
             color: var(--color-bg);
 
         }
-        .exa p{
+        .p p{
             font-size: 20px;
             width: 30%;
             padding: 15px;
@@ -111,7 +111,7 @@
            background-color: rgb(206, 239, 240);
            transition: background-color 4s ease-in-out 1s, color 4s ease-in-out, transform 2s ease-in-out;
         }
-        .exa p:hover{
+        .p p:hover{
             background-color:var(--color-bg);
             color: var(--font-color);
             transform: scale(1.1);
@@ -137,7 +137,6 @@
             margin: 20px;
             
         }
-        
         .a1,.a2,.a4,.a5,.a6,.a3{
               
             background-color: var(--color-bg);
@@ -154,9 +153,11 @@
         .a3,.a4,.a5,.a6{
             height: 80px;
         }
+
         .a3{
             border: 2px solid var(--font-color);
         }
+
         .a1{
             transition: background-color 2s ease-in-out 2s, color 2s ease-in-out, transform 2s ease-in-out ;
         }
@@ -173,8 +174,6 @@
             color: black;
                transform:rotate(125deg)
         }
-
-
          .a3{
              transition: background-color 2s ease-in-out 2s, color 2s ease-in-out, transform 2s ease-in-out ;
         }
@@ -223,3 +222,4 @@
         padding: 20px;
         text-align: center;
     }
+    
