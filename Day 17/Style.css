@@ -1,0 +1,262 @@
+ :root {
+            --color-bg: darkgreen;
+            --font-color: white;
+
+        }
+        body{
+        
+  font-family: "Work Sans";
+  background-color: rgb(249, 249, 249);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--color-bg);
+            align-items: center;
+            color: var(--font-color);
+        }
+
+        .head {
+            margin-left: 180px;
+        }
+
+        nav {
+            padding: 20px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: var(--font-color);
+
+        }
+
+        #an {
+            border-bottom: 2px solid var(--font-color);
+        }
+
+        nav a:hover {
+            border-bottom: 2px solid var(--font-color);
+        }
+
+         .con {
+            padding: 80px;
+        }
+
+        .row1 {
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+      
+        }
+        .row1 p{
+            color: black;
+      animation: row1 7s  2s infinite ;
+        }
+ @keyframes row1 {
+     
+   0%{opacity: 0; color: aliceblue; }
+   25%{color: brown;}
+   50%{ color: cadetblue;}
+   100%{opacity: 1; color: blue;}
+
+}
+
+        .row1 h1 {
+
+            color: var(--color-bg);
+         
+        }
+
+
+
+        .row2 {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            padding: 80px;
+            background-color: rgb(214, 215, 216);
+        }
+         .row2 h3{
+            font-size: 25px;
+         }
+
+        .row2 h1 {
+            font-style: italic;
+            color: var(--color-bg);
+            font-size: 35px;
+        }
+
+        .row2 p {
+            font-size: 25px;
+            color: rgb(0, 80, 27);
+            line-height: 1.8;
+
+        }
+
+        .sysn {
+            margin-left: 50px;
+            padding: 20px;
+        }
+        .row22{
+            margin-top: 130px;
+        }
+       
+    footer{
+        background-color: var(--color-bg);
+        text-align: center;
+        color: var(--font-color);
+        padding: 20px;
+    }
+
+.ex{
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+.ex h1{
+ font-size: 23px;
+ color: var(--color-bg);
+}
+.ex p{
+    color: brown;
+}
+
+ .examples{
+            padding: 40px;
+            background-color: rgb(212, 211, 211);
+        }
+        .examples p{
+            font-size: 23px;
+             color: black;
+        }
+     .E1,.E2,.E3,.E3,.E4{
+            display: flex;
+           
+          
+            gap: 50px;
+        }
+        .q1,.q2,.q3,.q4{
+            width: 50%;
+            padding: 20px;
+            margin: 20px;
+            
+        }
+        .a1,.a2,.a4,.a3{
+              
+            background-color: var(--color-bg);
+            color: var(--font-color);
+            text-align: center;
+             margin: 20px;
+             padding: 20px;
+             border-radius: 8px;
+             margin-left: 60px;
+             box-shadow: 2px 7px 10px 1px rgb(125 120 120);
+        }
+       
+        .a3,.a4{
+            height: 80px;
+        }
+         .a1{
+            height: 60px;
+            width: 500px;
+            margin-top: 60px;
+        
+         box-shadow: 2px 7px 10px 1px rgb(125 120 120);
+           animation: a1 2s ease-in 1s infinite forwards ;
+        }
+       
+        @keyframes a1{
+              
+                to{transform: translate(50px,-50px);}
+        } 
+
+       .a2,.a3,.a4{
+            height: 70px;
+            width: 500px;
+            margin-top: 60px;
+          
+         box-shadow: 2px 7px 10px 1px rgb(125 120 120);
+       }
+       .a2 button {
+          margin: 20px;
+    padding: 10px;
+    align-items: center;
+    width: 80px;
+     border-radius: 3px;
+    border-style: none;
+     font-size: 18px;
+       }
+       
+       .b4{
+        width: 80px;
+        height: 40px;
+        background-color: white;
+        margin-left: 180px;
+        margin-top: 10px;
+       }
+     
+       .b1:hover{
+        animation: b1 3s ease-in infinite 0.7s ;
+       }
+      @keyframes b1{
+         0%{ transform: scale(1); background-color: lightblue;
+    color: black;}
+         50%{transform: scale(1.1);background-color: lightgreen; color: white;}
+         100%{transform: scale(1);  }
+      }
+
+      .b2{
+        background-color: cornflowerblue;
+        color: white;
+      }
+      
+          .b2:hover{
+        animation: b2 3s ease-in infinite 0.7s ;
+       }
+      @keyframes b2{
+         0%{ transform: scale(1); background-color: rgb(226, 122, 241);
+    color: black;}
+         50%{transform: scale(1.1);background-color: rgb(14, 18, 234); color: white;}
+         100%{transform: scale(1);  }
+      }
+    
+      .b3{
+        background-color: rgb(6, 247, 210);
+        color: rgb(5, 5, 5);
+      }
+      
+          .b3:hover{
+        animation: b3 3s ease-in infinite 0.7s ;
+       }
+      @keyframes b3{
+         0%{ transform: scale(1); background-color: rgb(127, 68, 223);
+    color: black;}
+         50%{transform: scale(1.1);background-color: rgb(239, 8, 239); color: white;}
+         100%{transform: scale(1);  }
+      }
+    
+      .b4{
+         transition: background-color 4s ease-in-out 1s;
+      }
+
+      .b4:hover{
+       
+           font-size: 0px;
+           width: 40px;
+            height: 40px;
+            border: 9px solid lightgray;
+            border-top: 9px solid steelblue;
+            border-radius: 50%;
+             background-color: var(--color-bg);
+            animation: spinner 7s linear 2s infinite; 
+            
+      
+
+      }
+      @keyframes spinner {
+        to{transform: rotate(360deg);}
+      }
