@@ -214,7 +214,7 @@
         color: white;
       }
       
-          .b2:hover{
+    .b2:hover{
         animation: b2 3s ease-in infinite 0.7s ;
        }
       @keyframes b2{
