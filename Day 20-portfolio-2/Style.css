@@ -155,8 +155,7 @@
             border-radius: 20px;
             padding: 50px;
             width: 80%;
-            margin: -100px auto 0 auto;
-            /* overlap upwards */
+            margin-top: -100px;
             position: relative;
             z-index: 10;
             bottom: 80px;
@@ -272,9 +271,6 @@
 
         #portfolio {
             background-color: var(--head-bcg);
-            /* padding: 80px;
-            padding-top: 120px;
-            padding-bottom: 140px; */
             padding: 120px 80px 140px;
         }
 
@@ -489,20 +485,34 @@
             margin: 30px 0px 0px;
             display: flex;
             justify-content: center;
+           
         }
 
         .social {
             display: flex;
-            margin: 15px;
+            margin: 10px;
             background-color: #333333;
-           
             border-radius: 50%;
-            padding: 6px;
+            padding: 10px;
+            width: 40px;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+           
+             
         }
         .social a{
+
             text-decoration: none;
              color: #ffffff;
+            text-align: center;
+          
+        
         }
+        .socail i{
+            margin-top: 20px;
+        }
+        
         .social:hover {
             background-color: var(--red-color);
         }
@@ -510,4 +520,5 @@
             color: var(--red-color);
             background-color: azure;
         }
+        
       
