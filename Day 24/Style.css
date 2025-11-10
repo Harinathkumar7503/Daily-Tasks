@@ -1,0 +1,71 @@
+
+body{
+            background-color: azure;
+               font-family: "Poppins", sans-serif;
+        }
+       .task{
+        background-color: white;
+        margin: 100px;
+        border-radius: 10px;
+        padding: 60px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+       }
+
+       ol li{
+        margin: 20px;
+        font-size: 20px;
+        color: green;
+       }
+       table{
+        margin-left: 60px;
+        border-color: rgb(230, 8, 163);
+        margin: 50px;
+        width: 70%;
+        border-collapse: collapse;
+      
+       }
+       ul li{
+        color: blueviolet;
+        font-size: 18px;
+        margin: 10px;
+        list-style-type: circle;
+
+        
+       }
+       th{
+        color: rgb(29, 6, 237);
+        font-size: 18px;
+        font-weight: 800;
+        font-style: italic;
+         background-color: #ede7f6;
+       
+         
+       }
+       th, td{
+        padding: 15px;
+
+       }
+      h1{
+      color: #1a237e;
+       text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top: 70px;
+      margin-left: 400px; 
+    border-bottom: 2px solid rgb(96, 45, 3);
+         padding: 8px;
+         width: 250px;
+      }
+      #fail{
+        color: red;
+        font-size: 16px;
+        font-weight: 700;
+        
+      }
+      #A{
+        color: green;
+        font-size: 16px;
+        font-weight: 700;
+      }
+   
