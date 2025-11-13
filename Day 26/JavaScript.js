@@ -79,7 +79,10 @@ console.log("______Display all Products_________");
   let sl= sizes.length;
 
 
-  for(let i=0; i<cl; i++)
+/*   // Method 2
+
+
+for(let i=0; i<cl; i++)
   {
     for(let j=0; j<sl; j++)
     {
@@ -87,15 +90,16 @@ console.log("______Display all Products_________");
  console.log("coolors "+colors[i]+" size "+sizes[j]);
 
     }
-  }
+  }   
+      */
 
   
-// for(let color of colors)
-// {
-//     for(let size of sizes)
-//     {
-//                  console.log("color = " + color+" Size - "+size)
-//     }
+for(let color of colors)
+{
+    for(let size of sizes)
+    {
+                 console.log("color = " + color+" Size - " +size)
+    }
 
 
-// }
+}
