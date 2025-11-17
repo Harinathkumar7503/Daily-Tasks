@@ -1,0 +1,163 @@
+
+    :root{
+              --font: "Montserrat", sans-serif;
+            --head-font: "Roboto", sans-serif;
+    }
+    body{
+       font-family: var(--font);
+       font-size: 700;
+       background-color: rgb(183, 204, 231);
+    }
+    #calculator{
+        padding: 120px;
+         margin-left: 150px;
+
+    }
+    label{
+        margin: 80px;
+        font-size: 20px;
+        gap: 60px;
+        color: black;
+        font-weight: 600;
+    }
+    button{
+
+        background-color: rgb(179, 74, 74);
+        padding: 10px;
+        margin: 30px;
+        color: white;
+        width: 14%;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+    }
+      button:hover{
+        background-color: brown;
+      }
+    input{
+ 
+        color: brown;
+        border-style: none;
+        padding: 10px;
+        width: 20%;
+       margin: 0px 0px 30px 10px;
+        background-color: azure;
+        font-size: 20px;
+    }
+   input:hover{
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+
+   }
+   input:focus{
+
+    border: none;
+    outline: none;
+   }
+   #calculator p{
+    margin-top: 10px;
+    margin-left: 300px;
+        font-size: 20px;
+        gap: 60px;
+        color: rgb(27, 12, 239);
+        font-weight: 600;
+        
+   }
+   h2{
+    /* text-align: center; */
+    color: rgb(231, 89, 28);
+    padding: 50px;
+    margin-left: 270px;
+
+   }
+   strong{
+    color: darkgreen;
+   }
+/* hide */
+.hide{
+    padding: 120px;
+   background-color: azure;
+  text-align: center;
+}
+.hide h2{
+    margin-right: 200px;
+  margin: 20px;
+}
+.hide p{
+    color: black;
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+}
+.hide button{
+    background-color:darkcyan;
+    font-size: 16px;
+    
+}
+.hide button:hover{
+    background-color: darkgreen;
+}
+
+
+/* count */
+
+.Count{
+    padding: 100px;
+
+}
+.Count label {
+    margin:40px;
+    padding: 20px;
+}
+textarea {
+    margin: 40px;
+    border: none;
+    background-color:azure ;
+    color: brown;
+    font-size: 18px;
+
+
+}
+textarea:focus{
+    border: none;
+    outline: none;
+}
+.Count button {
+    margin-left: 220px;
+}
+.Count p{
+    margin-left: 220px;
+    font-size: 20px;
+    color: rgb(21, 53, 112);
+}
+/* Drarkmode */
+.Dark{
+    padding: 128px;
+    text-align: center;
+    background-color: azure;
+
+}
+#box{
+width :50%;
+     padding:20px; 
+    background-color:white; 
+    color:black;
+margin: 40px;
+ box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+ margin-left: 250px;
+ border-radius: 10px;
+}
+.Dark h2{
+    margin-right: 180px;
+}
+.Dark button{
+    background-color:darkcyan;
+    font-size: 16px;
+    
+    color: black;
+}
+.Dark button:hover{
+    background-color:green;
+    color: white;
+}

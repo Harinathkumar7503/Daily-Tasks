@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 30 </title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="Style.css">
+</head>
+
+<body id="body">
+    <section id="calculator">
+        <h2>Calculator</h2>
+        <label>Number 1 :</label>
+        <input type="number" id="num1">
+        <br><br>
+        <label>Number 2 :</label>
+        <input type="number" id="num2">
+       <div >
+        <button onclick="add()">Add</button>
+        <button onclick="sub()">Sub</button>
+        <button onclick="mul()">Multiplay</button>
+        <button onclick="div()">Division</button>
+        </div>
+        <p id="result">Result: </p>
+    </section>
+
+    
+    <div class="hide">
+        <h2>Hiding the para </h2>
+
+        <p id="para">Hello iam harinath kumar a web Developer at Oppty techHub pvt ltd</p>
+
+        <button onclick="para()">Hide</button>
+         <button onclick="show()">Show</button>
+
+    </div>
+
+    <div class="Count">
+         <h2>Count a Carrectoe</h2>
+
+         <label >Enter Charectors</label><br>
+         <textarea id="text" rows="10" cols="40" placeholder="enter"></textarea><br>
+
+         <button onclick="count()">Count </button>
+
+         <p id="output">Count : </p>
+
+
+    </div>
+
+     <div class="Dark">
+        <h2>Dark and BrightMode</h2>
+     <div id="box">
+        <h3>This is a Div</h3>
+        <p>Light / Dark mode only for this div.</p>
+    </div>
+
+    <br>
+    <button onclick="toggleDiv()">Dark/Bright Mode</button>
+     </div>
+
+
+    
+<script src="JavaScript.js"></script>
+</body>
+
+</html>
