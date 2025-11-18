@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 31</title>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        
+        <link rel="stylesheet" href="Style.css" >
+</head>
+<body>
+    <div class="Todolist">
+        <h2>To-Do -List</h2>
+        <div class="to">
+        <input type="text" id="text" placeholder="exnter">
+        <button onclick="addTask()">ADD</button> </div>
+
+        <ul id="ul"></ul>
+
+    </div>
+    <div class="ChangeImage">
+    
+    <h2>Changing image</h2>
+
+    <img src="Sources/up.png" onclick="change()"   id="image">
+     <p>Cick on image to change note: change up and down text</p>
+
+    </div>
+    <div class="Count">
+       <h2>Counter </h2>
+        <h5 id="Recult">Count: 0</h5>
+        <div class="buttons">
+       <button onclick="increment()">+</button>
+       <button onclick="Decrese()">-</button>
+        </div>
+    </div>
+
+
+
+<div class="Show">
+
+ <h2>Sow / Hide password</h2>
+
+ <input type="text " id="show" placeholder="Enter password">
+
+ <button onclick="showfunction()">Show</button> 
+ <button onclick="hidefunction()">Hide</button>
+
+
+</div>
+
+<div class="search">
+  <h2>Search Filter (input typing -> filter list items)</h2>
+
+  <input type="search" id="Serrch" placeholder="Enter To Search" onkeyup="serach()">
+
+  <p id="Items"></p>
+
+</div>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
