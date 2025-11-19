@@ -19,7 +19,7 @@ function addTask()
 {
 
      create.remove();
-});    
+});
 
 create.append(removeBT);
 

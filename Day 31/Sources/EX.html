@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.hide {
+    display: none;
+}
+</style>
+</head>
+
+<body>
+    <input type="password" id="pass">
+<button id="showBtn">Show/Hide</button>
+
+
+<script>
+    let pass = document.getElementById("pass");
+let btn = document.getElementById("showBtn");
+
+btn.addEventListener("click", function() {
+    pass.classList.toggle("hide");
+});
+
+</script>
+</body>
+</html>
