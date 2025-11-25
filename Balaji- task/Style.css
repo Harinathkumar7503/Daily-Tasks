@@ -1,0 +1,30 @@
+ body{
+        font-family: sans-serif;
+    }
+    .task {
+        background-color: azure;
+        padding: 40px;
+        width: 45%;
+        margin: 120px auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    h1{
+        text-align: center;
+        color: brown;
+    }
+    p{
+        text-align: justify;
+        line-height: 1.6em;
+    }
+    h5{
+        font-size: 20px;
+        color: darkred;
+    }
+    h6{
+        color: darkgreen;
+        font-size: 18px;
+    }
+    b{
+        color: darkblue;
+    }
