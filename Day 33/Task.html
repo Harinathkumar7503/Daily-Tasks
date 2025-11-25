@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        #font{
+            background-color: rgb(192, 231, 233);
+            padding: 120px;
+        }
+
+        h1 {
+            color: red;
+            text-align: center;
+        }
+        .Font{
+            padding: 20px;
+            margin: 40px;
+            margin-left: 300px;
+        }
+        .p{
+            max-width: 500px;
+            max-height: 500px;
+        }
+        .p p{
+            color: darkgreen;
+            font-size: 16px;
+            margin: 30px;
+        }
+        button{
+            background-color: rgb(72, 99, 158);
+            color: rgb(237, 235, 235);
+            margin: 50px;
+            font-size: 20px;
+            width: 13%;
+            padding: 9px;
+
+        }
+      #QR{
+        padding: 140px;
+        background-color: rgb(216, 225, 225);
+      }
+
+      #QR button{
+        width: 20%;
+        border-radius: 10px;
+      }
+      img{
+        margin-left: 120px;
+        margin-top: 40px;
+      }
+
+
+        #search{
+            padding: 120px;
+            background-color: rgb(157, 172, 173);
+        }
+        h5{
+            font-size: 20px;
+            color: black;
+        }
+        input{
+            width: 50%;
+            color: brown;
+            padding: 10px;
+        }
+        
+
+        #fad{
+            padding: 140px;
+            background-color: rgb(220, 255, 247);
+            
+        }
+
+       #fad h5{
+        color: brown;
+        font-size: 25px;
+       }
+       
+      .pa {
+    font-size: 18px;
+}
+
+.pa.show {
+    display: none;
+}
+
+
+    </style>
+</head>
+<body>
+    <section id="font">
+         <h1>Task details:</h1>
+        <div class="Font">
+   
+    <h5>Increase and decrease the font Size. Take p element and 2 buttons.</h5>
+
+      <div class="p"> <p id="para">Hello OPPTY Team</p>
+      </div>
+       <button id="in">+</button>
+       <button id="dc">-</button>
+   
+</div>
+</section>
+
+<!-- QR GENERATOR -->
+
+<section id="QR">
+    <input type="text" id="qr" placeholder="Enter text">
+
+    <button id="BB">Generate QR</button>
+
+    <img src="" id="Image" width="400px" height="300px">
+</section>
+
+<!-- SEARCH -->
+
+<section id="search">
+    <div class="Ser">
+    <h5>Search Language</h5>
+    <input type="search" id="text" name="se" placeholder="seacrsh" onkeydown="search()">
+  
+    <p id="display"></p>
+</div>
+</section>
+
+<!--FAQ-->
+<section id="fad">
+    <h5 class="faq">what is java</h5>
+    <p class="pa">Java is a heigh level Object oriented programming langauge</p>
+
+    <h5 class="faq">What is html</h5>
+    <p class="pa">html is a progfamming language</p>
+
+</section>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
