@@ -1,0 +1,25 @@
+ body{
+        background-color: azure;
+        font-family: sans-serif;
+    }
+    .emoji{
+        width: 50%;
+        margin: 120px auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 40px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    button{
+        margin: 20px;
+        padding: 10px;
+        width: 15%;
+        font-size: 23px;
+        border-radius: 10px;
+        background-color: rgb(238, 247, 223);
+        color: blueviolet;
+        transition: 2s;
+    }
+    button:hover{
+      background-color: rgb(184, 226, 227);
+    }
