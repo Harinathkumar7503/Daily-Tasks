@@ -1,0 +1,567 @@
+:root {
+      --font: "Jost", sans-serif;
+      --font2: "Marcellus", serif;
+    }
+
+    .header {
+      font-family: var(--font);
+      opacity: 1;
+      background-color: #f1f1f0;
+      display: flex;
+      /* gap: 40px; */
+      padding: 16px;
+
+    }
+
+    .navbar {
+      padding: 0px 12px;
+      margin-left: 40px;
+      margin-bottom: 10px;
+    }
+
+    .header a {
+      color: #000000A6;
+      margin-left: 40px;
+      font-size: 16px;
+    }
+
+    .title {
+      color: black;
+      text-transform: uppercase;
+
+      margin-left: 10px;
+
+    }
+
+    .title img {
+      padding: 5px;
+    }
+
+    .header a:hover {
+      color: black;
+    }
+
+    /* MAIN */
+
+    /* COLLECTIONS */
+    #collection {
+      padding: 48px 0px;
+      background-color: #f1f1f0;
+    }
+
+    .hr {
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .Collection h1 {
+      margin: 24px 0px 25px;
+      text-align: center;
+      font-size: 72px;
+      padding: 0px 12px;
+      font-family: var(--font2);
+    }
+
+    .Co-para {
+      padding: 0px 12px;
+      width: 42%;
+      margin: auto;
+    }
+
+    .Collection p {
+      text-align: center;
+      font-size: 18px;
+      margin: 0px 0px 16px;
+      color: #8F8F8F;
+      font-family: Jost;
+    }
+
+    .IMR1 {
+      padding: 60px;
+      gap: 70px;
+      background-color: #f1f1f0;
+      border: none;
+
+    }
+
+    .card {
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #f1f1f0 !important;
+    }
+
+    .card-body a {
+      font-family: var(--font2);
+      text-decoration: none;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #111111;
+      margin-top: 40px;
+    }
+
+    .card-body p {
+      font-size: 18px;
+      font-family: var(--font);
+      color: #8F8F8F;
+      margin: 10px 0px 16px;
+      text-align: left;
+
+    }
+
+    .aa a {
+      color: #111111;
+      font-size: 16px;
+      margin: 20px 0px 20px;
+      text-decoration: underline;
+      text-decoration-color: #dee2e6;
+      text-transform: uppercase;
+    }
+
+    .aa a:hover {
+      text-decoration-color: rgb(64, 63, 63);
+    }
+
+    /* TOOLS */
+   .Tools{
+    padding: 48px 0px 30px 0px;
+   }
+
+    .IconRow{
+      padding: 48px 0px;
+      /* margin: 70px; */
+    }
+    .Icons{
+     text-align: center;
+     padding: 40px;
+     /* width: 22%; */
+    
+    }
+    .Icons i{
+      font-size: 39px;
+      color: #8F8F8F;
+    }
+    .Icons h4{
+      font-size: 29px;
+      font-family: var(--font2);
+      margin: 16px 0px;
+      text-transform: capitalize;
+    }
+    .Icons p{
+      margin: 0px 0px 16px;
+      color: #8F8F8F;
+      font-family: var(--font);
+      font-size: 18px;
+    }
+
+   #CatImages{
+    padding: 0px 30px;
+   }
+   .catRow{
+    padding: 30px;
+    text-align: center;
+   }
+   .shop{
+    padding: 6px 12px;
+    text-align: left;
+    margin-left: 10px;
+   }
+   .shop a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: var(--font);
+    color: #8F8F8F;
+
+   }
+
+
+   #newArrival{
+    padding: 48px 30px;
+   }
+   .new{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px ;
+   }
+   .new h4{
+    text-align: left;
+    margin: 0px 0px 8px ;
+    font-size: 29px;
+    color: #111111;
+    font-family: var(--font2);
+    text-transform: uppercase;
+   }
+   .new a{
+  
+    text-decoration-color: #9AA1A7;
+    color: #111111;
+    font-size: 14px;
+    font-family: var(--font);
+      text-transform: uppercase;
+      margin-right: 30px;
+   }
+   /* .ProductRow{
+    /* padding: 30px; 
+   } */
+   .product{
+    padding: 20px;
+   }
+   .product a{
+    font-size: 20px;
+    font-family: var(--font2);
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+   }
+   .product p{
+    padding: 20px;
+    font-size: 16px;
+    font-family: var(--font);
+   }
+
+
+   #Classic{
+    padding: 90px 50px;
+    background-color:  #f1f1f0;
+   }
+   /* .Classic2{
+    background-color: white;
+    /* width: 50%; 
+   
+   }
+   .ClassicRow{
+    display: flex;
+   }
+
+   .Classic2 h3{
+    color: #111111;
+    font-size: 45px;
+    margin: 25px 0px;
+    font-family: var(--font2);
+    text-transform: uppercase;
+
+   }
+   .ClassicData{
+     margin: 48px;
+     padding: 38px;
+   }
+   .Classic2 p{
+    color: #8F8F8F;
+    font-family: var(--font);
+    font-size: 18px;
+    margin: 0px 0px 16px;
+   }
+  */
+
+  .ClssicRow{
+    display: flex;
+    justify-content: center;
+  }
+  .Classic2{
+    background-color: #ffffff;
+  }
+  .Classic2 h3{
+    color: #111111;
+    font-size: 45px;
+    margin: 25px 0px;
+    font-family: var(--font2);
+    text-transform: uppercase;
+
+   }
+    .ClassicData{
+     margin: 48px;
+     padding: 38px;
+   }
+   .Classic2 p{
+    color: #8F8F8F;
+    font-family: var(--font);
+    font-size: 18px;
+    margin: 0px 0px 16px;
+   }
+   .ClassicP{
+    width: 85%;
+   }
+   .classicButton{
+    margin: 16px 0px 0px;
+    padding: 5px 12px;
+    background-color: #111111;
+   }
+   .classicButton a{
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: var(--font);
+   }
+
+
+   #Selling{
+     padding: 48px 30px;
+     
+   }
+
+   #fullimage{
+    padding: 20px;
+    padding-bottom: 60px;
+   }
+   .Full{
+    background: url("Sources/video-image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     display: flex;
+  justify-content: center;
+   align-items: center;
+      height: 100vh; 
+      
+   }
+  
+   .Full img{
+  
+    animation:rotate 6s linear infinite;
+   }
+   @keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+   }
+   .Full i{
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 30px;
+   }
+
+
+   /* Complement */
+   #Compliment{
+    padding: 80px 0px;
+    background-color: #f1f1f0;
+    text-align: center;
+     
+   }
+   .comliment h3{
+    margin: 25px 0px;
+    font-size: 18px;
+    font-family: var(--font2);
+    color: #111111;
+   }
+   .CompText{
+      margin: 48px 0px;
+      margin-bottom: 20px;
+     text-align: center;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+   }
+   .CompText p{
+    font-size: 36px;
+    font-family: var(--font);
+    color: #8F8F8F;
+    width: 40%;
+
+   }
+   .genTex{
+    font-family: var(--font);
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #8F8F8F;
+
+   }
+   /* Like */
+
+   #Like{
+      padding: 48px 30px;
+   }
+   .dd{
+    color: #6c757d;
+    font-size: 16px;
+    font-family: var(--font);
+    text-transform: uppercase;
+    margin: 20px 0px 8px 0px;
+   }
+   .PostDat a{
+    font-size: 23px;
+    font-family: var(--font2);
+    color: #111111;
+    margin: 10px 0px 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+   }
+    .PostDat p{
+      margin: 20px 0px 16px;
+      font-size: 18px;
+      font-family: var(--font);
+      color: #8F8F8F;
+      width: 90%;
+    }
+    .PostNew{
+       padding: 30px 80px ;
+    }
+
+    /* Logo section */
+    #Logo{
+      padding: 48px;
+      margin: 48px;
+    }
+    .logoClass {
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+    /* Login */
+    #Login{
+  background-image: url(Sources/pattern-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color:  #f1f1f0;;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .log{
+      /* width: 600px; */
+      
+      margin: 48px 0px;
+      padding: 48px 12px;
+      text-align: center;
+
+    }
+    .Details{
+     margin: 25px 0px;
+    }
+    .Details h3{
+        font-size: 45px;
+        font-family: var(--font2);
+        color: #111111;
+        text-transform: uppercase;
+    }
+    .form{
+        margin: 45px 0px 0px 0px;
+    }
+    input{
+        width: 100%;
+        padding: 8px 16px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+    input::placeholder{
+        font-family: var(--font);
+        font-size: 20px;
+    }
+    input[type=submit]{
+        background-color: #111111;
+        color: #ffffff;
+        font-size: 20px;
+        font-family: var(--font);
+        text-transform: uppercase;
+    }
+    input:focus{
+        border: none;
+    }
+
+
+    /* #Insta{
+       padding: 0px 5px;
+    } */
+     .follow{
+        text-align: center;
+
+     }
+   .follow a{
+    background-color: #111111;
+      /* width: 20%; */
+    padding: 6px 48px;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: var(--font);
+    margin: auto;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    bottom:10px;
+  
+   }
+
+   #footer{
+    margin: 48px 0px 0px 0px;
+
+   }
+
+   .FROW{
+    display: flex;
+   gap: 30px;
+   border-bottom: 1px solid #dee2e6;
+   margin: 0px 12px;
+   padding: 48px 20px;
+   }
+.FrowCard1{
+  display:flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0px 12px;
+
+}
+.FrowCard1 h5{
+  margin: 0px 0px 24px;
+  font-size: 23px;
+  color: #111111;
+  font-family: var(--font2);
+  text-transform: uppercase;
+}
+.FrowCard1 img{
+   margin: 0px 0px 24px
+}
+.FrowCard1 p{
+  margin: 0px 0px 16px;
+  font-size: 18px;
+  font-family: var(--font);
+  color: #8F8F8F;
+}
+.FrowCard1 a{
+  color: #111111;
+  font-family: var(--font2);
+  font-size: 16px;
+  margin: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.FrowCard1 a:hover{
+  text-decoration: underline;
+  text-decoration-color: #111111;
+}
+.Frow11 a{
+  text-transform: lowercase;
+   font-size: 22px;
+}
+.Frow11 a:last-child{
+  font-size: 18px;
+}
+.social{
+  margin: 15px;
+}
+.social i{
+  font-size: 22px;
+  margin: 0px 8px;
+  color: #8F8F8F;
+}
+
+
+#footer2{
+  padding: 24px 0px;
+  justify-content: space-between;
+}
+.Foter2Col1 span{
+  color: #8F8F8F;
+  font-size: 18px;
+  font-family: var(--font);
+  text-transform: capitalize;
+}
+.Foter2Col2{
+  padding: 0px 12px;
+  color:#8F8F8F;
+  width: 40%;
+  text-align: center;
+  font-size: 18px;
+  font-family: var(--font);
+}
