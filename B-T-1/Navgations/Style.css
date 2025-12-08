@@ -445,6 +445,13 @@ list-style: none;
     background-color: #EB5656;
     color: #ffffff;
 }
+.icon:hover{
+    background-color: #EB5656;
+    color: #ffffff;
+}
+li:hover,a:hover{
+    color: #EB5656;
+}
 
 
 
