@@ -1,0 +1,74 @@
+:root{
+                    --font: "Montserrat", sans-serif;
+            --head-font: "Roboto", sans-serif;
+            }
+            body{
+                 font-family: var(--font);
+            }
+            .Todolist{
+                padding: 120px;
+               background-color: rgb(252, 225, 215);
+            }
+            h2{
+                color: rgb(2, 188, 250);
+                font-size: 20px;
+                text-align: center;
+                margin: 20px;
+            }
+            input{
+                margin: 30px;
+                padding: 10px;
+                width: 40%;
+                margin-left: 220px;
+                font-family: var(--head-font);
+                color: blueviolet;
+                font-size: 18px;
+                border-radius: 15px;
+            }
+            button{
+                background-color: rgb(161, 161, 234);
+                padding: 8px;
+                color: white;
+                font-size: 16px;
+                width: 100px;
+                border: none;
+                border-radius: 5px;
+            }
+            .to{
+                margin-left: 120px;
+            }
+            input::placeholder{
+                color: blueviolet;
+                font-family: var(--head-font);
+                font-size: 16px;
+            }
+             ul {
+        margin-top: 20px;
+        padding-left: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+
+    li {
+        margin-bottom: 10px;
+        padding: 8px;
+        background-color: azure;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: brown;
+        font-size: 18px;
+        width: 300px;
+    }
+    .remove-btn{
+         background: red;
+        color: white;
+        border: none;
+        padding: 5px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
