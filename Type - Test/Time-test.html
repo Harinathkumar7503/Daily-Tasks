@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typing Test</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<div class="TimeTest">
+  <h3>Typing Test</h3>
+   <p class="para">Type the following text </p>
+  <p id="text">OPPTY TechHub is a dynamic and future-focused technology company offering cutting-edge IT services, strategic IT consulting, and end-to-end campus recruitment and training (CRT) solutions. At the heart of our mission is a commitment to empower businesses and talent with the tools and expertise needed to thrive in a rapidly evolving digital world.</p>
+
+  <p>Time Left: <span id="time">02:00</span></p>
+
+  <textarea id="input" disabled placeholder="Start typing ...."></textarea>
+  <br>
+
+  <button onclick="startTest()" class="startB">Start</button>
+  <button onclick="stopTest()" class="stopB">Stop</button>
+
+  <p id="same"></p>
+  <p id="result"></p>
+</div>
+
+<script src="JavaScript.js"></script>
+
+</body>
+</html>
