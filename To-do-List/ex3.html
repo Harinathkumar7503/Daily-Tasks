@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typing Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+   
+    }
+
+    .TimeTest {
+      background-color: #bed9e4;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 450px;
+      text-align: center;
+    }
+    .para{
+        font-size: 18px;
+        color: darkred;
+    }
+
+    h3 {
+      color: #333;
+    }
+
+    #text {
+      font-size: 18px;
+      margin: 20px ;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+
+    #time {
+      font-weight: bold;
+      color: #ff4c4c;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #92cff3;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px 5px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color:green;
+      color: white;
+    }
+
+    .startB:hover {
+      background-color: #41ce48;
+    }
+    .stopB{
+          background-color:orangered;
+    }
+ .stopB:hover{
+    background-color: #eb2424;
+ }
+    #same, #result {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    #same {
+      color: #048404;
+    }
+
+    #result {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+<div class="TimeTest">
+  <h3>Typing Test</h3>
+   <p class="para">Type the following text </p>
+  <p id="text">OPPTY TechHub is a dynamic and future-focused technology company offering cutting-edge IT services, strategic IT consulting, and end-to-end campus recruitment and training (CRT) solutions. At the heart of our mission is a commitment to empower businesses and talent with the tools and expertise needed to thrive in a rapidly evolving digital world.</p>
+
+  <p>Time Left: <span id="time">02:00</span></p>
+
+  <textarea id="input" disabled placeholder="Start typing ...."></textarea>
+  <br>
+
+  <button onclick="startTest()" class="startB">Start</button>
+  <button onclick="stopTest()" class="stopB">Stop</button>
+
+  <p id="same"></p>
+  <p id="result"></p>
+</div>
+
+<script>
+  let timeLeft = 120; // 2 minutes
+  let interval;
+
+  function startTest() {
+    timeLeft = 120;
+    updateTimeDisplay();
+
+    document.getElementById("input").value = "";
+    document.getElementById("input").disabled = false;
+    document.getElementById("input").focus();
+    document.getElementById("result").innerText = "";
+    document.getElementById("same").innerText = "";
+
+    interval = setInterval(() => {
+      timeLeft--;
+      updateTimeDisplay();
+
+      if (timeLeft === 0) {
+        stopTest();
+      }
+    }, 1000);
+  }
+
+  function updateTimeDisplay() {
+    let minutes = Math.floor(timeLeft / 60);
+    let seconds = timeLeft % 60;
+
+    document.getElementById("time").innerText = 
+      String(minutes).padStart(2, "0") + ":" + 
+      String(seconds).padStart(2, "0");
+  }
+
+  function stopTest() {
+    clearInterval(interval);
+    document.getElementById("input").disabled = true;
+
+    let typed = document.getElementById("input").value.trim();
+    let original = document.getElementById("text").innerHTML.trim();
+
+    let typedWords = typed.split(" ");
+    let originalWords = original.split(" ");
+
+    let count = 0;
+    for (let i = 0; i < typedWords.length; i++) {
+      if (typedWords[i] === originalWords[i]) {
+        count++;
+      }
+    }
+    document.getElementById("same").innerHTML = "Matches: " + count;
+
+    let words = typed === "" ? 0 : typed.split(" ").length;
+    let minutesUsed = (120 - timeLeft) / 60;
+    let wpm = minutesUsed === 0 ? 0 : Math.round(words / minutesUsed);
+
+    document.getElementById("result").innerText = "Time Up! Speed: " + wpm + " WPM";
+  }
+</script>
+
+</body>
+</html>

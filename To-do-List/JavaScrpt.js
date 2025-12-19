@@ -3,7 +3,7 @@ function addTask()
 {
    
  let text= document.getElementById('text').value;
-
+ 
  const create=document.createElement('li');
  create.textContent=text;
 
@@ -22,5 +22,8 @@ function addTask()
 
 create.append(removeBT);
 
- 
+  
 }
+
+
+
