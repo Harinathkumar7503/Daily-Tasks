@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scroll To Top Button</title>
+  <style>
+    body {
+      font-family: Arial;
+      height: 2000px; /* just to create scroll */
+      padding: 20px;
+    }
+
+    /* Scroll to top button */
+    #scrollTopBtn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      padding: 12px 15px;
+      font-size: 20px;
+      background: #000;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none; /* hidden initially */
+    }
+
+    #scrollTopBtn:hover {
+      background: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Scroll Down 👇</h1>
+  <p>Keep scrolling to see the up arrow button...</p>
+
+  <!-- Scroll to top button -->
+  <button id="scrollTopBtn">↑</button>
+
+  <script>
+    const scrollBtn = document.getElementById("scrollTopBtn");
+
+    // Show button when scroll down
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 200) {
+        scrollBtn.style.display = "block";
+      } else {
+        scrollBtn.style.display = "none";
+      }
+    });
+
+    // Scroll to top when clicked
+    scrollBtn.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+
+</body>
+</html>

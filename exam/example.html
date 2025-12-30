@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple JS Slider</title>
+  <style>
+    .slider {
+      width: 300px;
+      height: 200px;
+      margin: 50px auto;
+      border: 2px solid #000;
+      position: relative;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+       transition: opacity 0.5s ease;
+    }
+
+    button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: black;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    .prev { left: 5px; }
+    .next { right: 5px; }
+  </style>
+</head>
+
+<body>
+
+  <div class="slider">
+    <img id="slide" src="https://picsum.photos/300/200?1">
+
+    <button class="prev" onclick="prev()">❮</button>
+    <button class="next" onclick="next()">❯</button>
+  </div>
+
+  <script>
+    let images = [
+      "https://picsum.photos/300/200?1",
+      "https://picsum.photos/300/200?2",
+      "https://picsum.photos/300/200?3"
+    ];
+
+    let index = 0;
+
+    function next() {
+      index++;
+      if (index === images.length) {
+        index = 0;
+      }
+      document.getElementById("slide").src = images[index];
+    }
+
+    function prev() {
+      index--;
+      if (index < 0) {
+        index = images.length - 1;
+      }
+      document.getElementById("slide").src = images[index];
+    }
+  </script>
+
+</body>
+</html>
+

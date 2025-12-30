@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        :root {
+            --sideA_Bg: #99CDFF;
+            --sidB_Bg: #ffffff;
+
+
+        }
+
+        .main {
+            display: flex;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #sideA {
+            background-color: var(--sideA_Bg);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: end;
+            width: 50%;
+            gap: 30px;
+        }
+
+        #sideB {
+            background-color: var(--sideB_Bg);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            width: 50%;
+            gap: 30px;
+        }
+
+        .text1,
+        .title1 {
+
+            width: 80%;
+            padding: 120px 0px 0px 90px;
+        }
+
+        .text1 p {
+            font-family: 'Poppins', sans-serif;
+            font-style: italic;
+            font-size: 20px;
+            font-weight: 300;
+            color: #ffffff;
+            line-height: 1.9em;
+            padding: 20px;
+        }
+
+        .title1 {
+            color: var(--sideA_Bg);
+            font-family: 'Poppins', sans-serif;
+            font-style: italic;
+            padding: 90px 0px 40px 0px;
+            border-bottom: 2px solid var(--sideA_Bg);
+            width: 60%;
+            margin-left: 60px;
+            text-align: center;
+            margin-bottom: 120px;
+        }
+
+        .title1 h1 {
+            font-size: 60px;
+            letter-spacing: 5px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .title1 h3 {
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 10px;
+            word-spacing: 5px;
+        }
+
+        /* image */
+
+
+        .imageg1 {
+            padding: 40px 0px 0px 90px;
+            margin-top: 70px;
+        }
+
+        .OurPlace {
+            padding: 80px 0px 20px 40px;
+            margin-left: 30px;
+            /* margin-top: 60px; */
+            width: 70%;
+        }
+
+        .OurPlace h3 {
+            color: var(--sideA_Bg);
+            font-size: 25px;
+        }
+
+        .OurPlace p {
+            font-size: 18px;
+            line-height: 1.7em;
+            margin-bottom: 20px;
+        }
+
+        small {
+            color: blue;
+            font-size: 18px;
+        }
+
+
+
+        .focus {
+            background-color: #CCE6FF;
+            width: 80%;
+            padding: 30px 20px 50px 30px;
+        }
+
+        .focus h2 {
+            color: var(--sideA_Bg);
+            font-size: 30px;
+        }
+
+        .focus p {
+            font-size: 18px;
+            line-height: 1.7em;
+
+        }
+
+        .focus,
+        .Image2 {
+            margin-top: 120px;
+        }
+
+        .Image2 {
+            padding-top: 120;
+        }
+
+        .Beautifull {
+            margin-top: 100px;
+        }
+
+        .Beautiful {
+
+            margin-top: 30px;
+            width: 60%;
+            font-size: 15px;
+            border-bottom: 1px solid black;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            margin-left: 180px;
+            padding-bottom: 5px;
+        }
+
+        .Beautiful h2 {
+            text-align: right;
+        }
+
+        .images {
+            display: flex;
+            gap: 30px;
+            padding: 40px;
+            padding-bottom: 40px;
+        }
+
+        .para{
+            padding: 0px;
+            margin-left: 160px;
+            width: 60%;
+        }
+        .para p{
+            color: rgb(135, 133, 133);
+            font-size: 16px;
+            line-height: 1.7em;
+        }
+        .para2{
+  padding: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main">
+        <section id="sideA">
+
+            <div class="text1">
+                <p>Nullam eget dignissim orci. Donec tincidunt blandit libero
+                    iaculis fermentum. Aliquam erat volutpat. Interger
+                    suscipit aliquam augue ac rutrum. Phasellus sit amet erat
+                    id sapien efficitur euismod.</p>
+            </div>
+
+
+            <div class="imageg1">
+                <img src="Source/image1.png" width="500px" height="300px">
+            </div>
+
+            <div class="focus">
+                <h2>Fusce a porttitor augue</h2>
+                <p>Quisque rutrum dapibus odio vitae tincidunt. Etiam
+                    sollicitudin augue non porta interdum. Pellentesque
+                    placerat orci at libero ornare, nec viverra justo
+                    lobortis. Phasellus venenatis eros non.</p>
+            </div>
+            <div class="Beautifull"></div>
+            <div class="images">
+                <img src="Source/Gemini_Generated_Image_b5mlvvb5mlvvb5ml.png" width="250px" height="450px">
+                <img src="Source/Gemini_Generated_Image_7mh0y47mh0y47mh0.png" width="250px" height="450px">
+            </div>
+            <div class="para2"></div>
+        </section>
+
+        <section id="sideB">
+            <div class="title1">
+                <h1>SIDED</h1>
+                <h3>new theme just for you</h3>
+            </div>
+
+            <div class="OurPlace">
+                <h3>Our Place</h3>
+                <p>Sided Bootstrap v4.2.1 template has 3 HTML pages.
+                    <small>Index</small>, <small>Page 2</small> and <small>Page 3</small>. You may share this Sided
+                    template or<small>our templatemo page</small> to your friends.
+                    Pellentesque commodo malesuada est.
+                </p>
+                <p>Suspendisse porttitor sollicitudin nisi et bibendum.
+                    Donec ac semper ante, non sagittis sapien. Duis
+                    hendrerit tellus sit amet cursus euismod.
+                </p>
+            </div>
+
+            <div class="Image2">
+                <img src="Source/image2.png" width="600px" height="300px">
+            </div>
+
+            <div class="Beautiful">
+                <h2>Beautiful Flowers</h2>
+            </div>
+
+            <div class="images">
+                <img src="Source/Gemini_Generated_Image_v7uvgov7uvgov7uv.png" width="250px" height="450px">
+                <img src="Source/Gemini_Generated_Image_p21n2hp21n2hp21n.png" width="250px" height="450px">
+            </div>
+
+
+            <div class="para">
+                <p>Description text for beautiful rollovers using text color
+                    code #999 for this line. Quisque pharetra mauris in
+                    libero vaius tristique.</p>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

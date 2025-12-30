@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Only Slider</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      font-family: Arial;
+    }
+
+    .slider {
+      width: 300px;
+      overflow: hidden;
+    }
+
+    /* Hide radio buttons */
+    input {
+      display: none;
+    }
+
+    .slides {
+      display: flex;
+      width: 900px;
+      transition: transform 0.5s ease;
+    }
+
+    .slides img {
+      width: 300px;
+      height: 200px;
+    }
+
+    /* Move slides */
+    #s1:checked ~ .slides {
+      transform: translateX(0);
+    }
+
+    #s2:checked ~ .slides {
+      transform: translateX(-300px);
+    }
+
+    #s3:checked ~ .slides {
+      transform: translateX(-600px);
+    }
+
+    /* Navigation dots */
+    .nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .nav label {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: gray;
+      border-radius: 50%;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    input:checked + label {
+      background: black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="slider">
+
+    <input type="radio" name="slide" id="s1" checked>
+    <label></label>
+
+    <input type="radio" name="slide" id="s2">
+    <label></label>
+
+    <input type="radio" name="slide" id="s3">
+    <label></label>
+
+    <div class="slides">
+      <img src="https://picsum.photos/300/200?1">
+      <img src="https://picsum.photos/300/200?2">
+      <img src="https://picsum.photos/300/200?3">
+    </div>
+
+    <div class="nav">
+      <label for="s1"></label>
+      <label for="s2"></label>
+      <label for="s3"></label>
+    </div>
+
+  </div>
+
+</body>
+</html>
