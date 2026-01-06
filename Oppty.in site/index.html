@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppty.in </title>
+    <link rel="stylesheet" href="Nav/Home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Marcellus&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <style>
+        body {
+            font-family: "Space Grotesk", sans-serif;
+        }
+
+        header {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            background-color: #ffffff;
+            z-index: 1000;
+        }
+
+        header img {
+            width: 150px;
+            height: 50px;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            width: 80%;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            color: rgb(51, 51, 51);
+        }
+
+        .nav2 {
+            padding: 10px;
+            background-color: #E55F14;
+            border-radius: 30px;
+
+        }
+
+        .nav2 a {
+            color: #fff;
+        }
+
+        .call {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        /* ----------------hero sectio------------------------------ */
+
+        .HeroSection {
+            display: flex;
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+                url("../Sources/home-3-slider-bg.jpeg");
+
+            background-size: cover;
+            padding: 120px 40px 0px 50px;
+            color: #fff;
+            margin-top: 50px;
+
+
+        }
+
+        .HeroSlideText h2 {
+            font-size: 57px;
+            font-weight: bold;
+        }
+
+        .HeroSlideText {
+
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+        }
+
+        .HeroImage img {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .Herolist {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            font-weight: 600;
+            list-style-type: circle;
+        }
+
+        /* ---------------------------hero2-------------------------- */
+
+        .HeroSection2 {
+            padding: 130px 40px 30px;
+            background-color: black;
+        }
+
+        .HeroSection2 h2 {
+            font-size: 40px;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-left: 120px;
+        }
+
+        .MainContainer {
+            display: flex;
+            gap: 40px;
+        }
+
+        .LeftSide img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* 
+        .para {
+            color: #fff;
+
+        }
+
+        .RightButton {
+            padding: 15px 20px;
+            border-radius: 25px;
+            background-color: #E55F14;
+            color: #ffffff;
+            border: none;
+            margin-top: 50px;
+            width: 25%;
+        }
+
+        .rightSide {
+            display: flex;
+        }
+
+        .SUBRightSide {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            gap: 30px;
+        }
+
+        .SUB {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            gap: 30px;
+        } */
+
+
+
+
+        .rightSide {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+
+        .RightTop {
+            display: flex;
+            align-items: flex-end;
+            gap: 40px;
+        }
+
+
+        .SUBRightSide {
+            max-width: 60%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: #fff;
+        }
+
+
+        .RightButton {
+            padding: 14px 28px;
+            border-radius: 30px;
+            background: #E55F14;
+            color: #fff;
+            border: none;
+            width: fit-content;
+            cursor: pointer;
+        }
+
+
+        .cahireImage img {
+            max-width: 260px;
+        }
+
+
+        .StatsGrid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+
+        .StatBox {
+            padding: 20px;
+            color: #fff;
+            border-right: 1.5px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .StatBox:last-child {
+            border-right: none;
+        }
+
+        .StatBox h3 {
+            font-size: 28px;
+            margin-bottom: 6px;
+        }
+
+        .StatBox p {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        /* --------------------------Five steps section-------------------- */
+        .FiveSteps {
+            padding: 50px 40px 80px;
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                url("Sources/career-detail-image-1.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .FivestepHead {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+
+
+        }
+
+        .FivestepHead h2 {
+            color: #ffffff;
+            text-align: center;
+
+            font-size: 40px;
+            text-transform: uppercase;
+
+        }
+
+        Strong {
+            color: #E55F14;
+        }
+
+        .Transactions {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+        }
+
+        .TransCard1 {
+            padding: 8px;
+
+            width: 100%;
+        }
+
+
+
+        .CardHead {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+
+
+        .TransCard1 {
+            color: #fff;
+            position: relative;
+        }
+
+
+        .CardHead {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+
+        .CardHead img {
+            width: 60px;
+            height: 60px;
+            filter: brightness(0) invert(1);
+        }
+
+
+        .arrow {
+            flex: 1;
+            margin-left: 20px;
+            position: relative;
+            height: 2px;
+        }
+
+
+
+
+        .TransCard1 h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .TransCard1 p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #ddd;
+            max-width: 90%;
+        }
+
+
+        .TransCard1:last-child .arrow {
+            display: none;
+        }
+
+        .Linkedin {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            margin-top: 70px;
+        }
+
+        .Follow {
+            border: none;
+        }
+
+        .Follow a {
+
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        /* 
+-------------------------services------------------------------ */
+
+        .Service {
+
+            background: linear-gradient(120deg,
+                    #2b3f6b 0%,
+                    #1e2430 35%,
+                    #141414 70%,
+                    #000000 100%);
+
+            padding: 80px 60px;
+            color: #ffffff;
+        }
+
+        .Solutions {
+            display: flex;
+            gap: 50px;
+            /* background-color: #c09999; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .SS {
+            width: 40%;
+
+        }
+
+        .SS p {
+            font-size: 22px;
+
+        }
+
+        .SS h2 {
+            font-size: 38px;
+            text-transform: uppercase;
+        }
+
+        .UnlockPara {
+            padding-left: 20px;
+            border-left: 3px solid #EFBB65;
+            width: 30%;
+
+        }
+
+        .ViewB {
+            background-color: #3D4C65;
+            padding: 18px 40px;
+        }
+
+        .ViewB a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .ITServices {
+            display: flex;
+
+
+            margin-top: 40px;
+            color: #fff;
+            gap: 60px;
+        }
+
+        .ITImage {
+            width: 40%;
+        }
+
+        .ITImage img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .ITbPO {
+            width: 60%;
+        }
+
+        .ITbPO a {
+            text-decoration: none;
+            font-size: 30px;
+            color: #ffffff;
+
+        }
+
+        .opp {
+            border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+            padding: 30px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 100%;
+        }
+
+        .opp h3 {
+            font-size: 30px;
+        }
+
+
+        /* -------------------it service , bop marquee--------------------- */
+
+        .ServiceSlider {
+            background: #ffffff;
+            overflow: hidden;
+            white-space: nowrap;
+            padding: 30px 0;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+
+        .slider-track {
+            display: inline-flex;
+            gap: 20px;
+            animation: scrollText 18s linear infinite;
+        }
+
+
+        .slider-track span {
+            font-size: 42px;
+            font-weight: 800;
+            color: #000;
+            text-transform: uppercase;
+        }
+
+        @keyframes scrollText {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        .rotate:hover {
+            transform: rotate(10deg);
+        }
+
+        /* -------------------tustominal--------------------- */
+        .Testimonials {
+
+            padding: 80px 60px;
+            background-color: #222327;
+            color: #fff;
+        }
+
+        .Testimonials p {
+            text-align: center;
+            font-size: 22px;
+
+        }
+
+        .Testimonials h2 {
+            text-align: center;
+            font-size: 35px;
+            text-transform: uppercase;
+        }
+
+        .TestimonialsSlider {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            padding: 60px 40px;
+            background: #1f2227;
+        }
+
+        .TSlide {
+            position: relative;
+            padding: 40px 40px 60px;
+            background: linear-gradient(180deg, #1f232a, #1b1e23);
+            border-radius: 6px;
+            color: #ffffff;
+
+            box-shadow:
+                0 0 0 1px rgba(76, 122, 255, 0.25),
+                0 0 25px rgba(76, 122, 255, 0.15);
+
+            overflow: hidden;
+        }
+
+
+        .TSlide p {
+            text-align: left;
+            font-size: 18px;
+        }
+
+        .TSlide i {
+            font-size: 18px;
+            margin-right: 6px;
+        }
+
+
+        .TP {
+            margin-top: 28px;
+            font-size: 22px;
+            line-height: 1.5;
+            max-width: 85%;
+        }
+
+
+
+        /* ---------------Clints---------------------------------------- */
+
+        .Clints {
+            padding: 30px 0px;
+            background-color: #222327;
+            color: #fff;
+        }
+
+        .Clints p {
+            text-align: center;
+            font-size: 18px;
+
+        }
+
+        .Clints h2 {
+            text-align: center;
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+
+
+        .LogoSlider {
+
+            background: #ffffff;
+            overflow: hidden;
+            padding: 40px 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+
+
+        .logo-track {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            width: max-content;
+            animation: logoScroll 22s linear infinite;
+        }
+
+
+        .logo-track img {
+            max-height: 150px;
+            width: 130px;
+            object-fit: contain;
+        }
+
+
+        @keyframes logoScroll {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        .LogoSlider:hover .logo-track {
+            animation-play-state: paused;
+        }
+
+        /* ------------------------------footer------------------------------- */
+        .Footer1 {
+            padding: 30px 90px;
+            background-color: #222327;
+            color: #fff;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+            ;
+        }
+
+        .addres img {
+            width: 100px;
+            height: 50px;
+        }
+
+        .foothead h3 {
+            color: #E55F14;
+            font-size: 18px;
+        }
+
+        .foothead p {
+            font-size: 16px;
+        }
+
+        .foothead a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .foothead li {
+            margin-bottom: 10px;
+        }
+
+        .QuikLinks li {
+            margin-bottom: 20px;
+        }
+
+        /* ------------------------national--------------------- */
+
+        .Footer2 {
+            background: #222327;
+            padding: 60px 0;
+            display: flex;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .NationalBox {
+            background: #ffffff;
+            width: 85%;
+            max-width: 1200px;
+            border-radius: 16px;
+            padding: 40px 20px;
+        }
+
+        .NationalImages {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .NationalImages img {
+            height: 100px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .Ecd {
+            color: #fff;
+            background: #222327;
+            padding: 30px;
+        }
+
+        a:hover {
+            color: #E55F14;
+        }
+
+        .nav2 a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Sources/oppty.png">
+
+        <nav>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUTUS</a></li>
+            <li><a href="#">OUER SERVICES</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">CAREES</a></li>
+
+            <div class="acadomy nav2">
+                <li><a href="#">ACOCUMY</a></li>
+            </div>
+            <div class="trining nav2">
+                <li><a href="#">TRAINING PARTNER</a></li>
+            </div>
+            <div class="haring nav2">
+                <li><a href="#">HIRING PARTNER</a></li>
+            </div>
+            <div class="call "><i class="fa-solid fa-phone" style="color: #da16ca;"></i>
+                <a href="telto:9347876236">+91 9491209900</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="HeroSection">
+
+            <div class="HeroSlideText">
+                <h2>INNOVATIVE SOLUTIONS UNSHALVED </h2>
+                <div class="Herolist">
+                    <li>ADVANCED IT</li>
+                    <li>TAILORED STRATEGIES </li>
+                    <li>SCALABLE GROWTH</li>
+                </div>
+            </div>
+            <div class="HeroImage">
+                <img src="Sources/slider-3-image.png">
+
+            </div>
+
+        </section>
+
+        <section class="HeroSection2">
+            <h2>
+                Ignite Your Business with<br> Oppty TechHub</h2>
+            <div class="MainContainer">
+                <div class="LeftSide">
+                    <img src="Sources/Hai-Home3-filler-1-img.jpeg">
+                </div>
+                <div class="rightSide">
+
+
+                    <div class="RightTop">
+
+                        <div class="SUBRightSide">
+                            <div class="para">
+                                <p>
+                                    Power up your success with innovative IT, BPO, E-commerce,
+                                    Web Development, and AI solutions tailored to your vision.
+                                    Partner with us to transform challenges into opportunities
+                                    and drive growth with cutting-edge technology.
+                                </p>
+                            </div>
+
+                            <button class="RightButton btn">Know more</button>
+                        </div>
+
+                        <div class="cahireImage">
+                            <img src="Sources/Hai-Home3-filler-fixed-img.png" alt="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="StatsGrid">
+                        <div class="StatBox">
+                            <h3>2K</h3>
+                            <p>Projects Complete</p>
+                        </div>
+                        <div class="StatBox">
+                            <h3>200+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="StatBox">
+                            <h3>10+</h3>
+                            <p>Awards Achieve</p>
+                        </div>
+                        <div class="StatBox">
+                            <h3>+5</h3>
+                            <p>Global Branches</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="FiveSteps">
+            <div class="FivestepHead">
+                <h2>Five Steps to <strong>Transform</strong> <br>Your Business with Oppty TechHub</h2>
+            </div>
+
+            <div class="Transactions">
+                <div class="TransCard1 cards">
+                    <div class="CardHead">
+                        <img src="Sources/bulb-svgrepo-com.png">
+                        <div class="arrow">
+                            <div class="aa"></div>
+                        </div>
+                    </div>
+                    <h3>1. Discover Your Needs</h3>
+                    <p>Analyze your business goals with our
+                        experts to identify tailored IT and Al
+                        solutions for maximum impact.</p>
+
+
+                </div>
+                <div class="TransCard1 cards">
+                    <div class="CardHead">
+                        <img src="Sources/1286fd75-aa4f-408a-a617-5e3aecaf94c7.svg">
+                        <div class="arrow">
+                            <div class="aa"></div>
+                        </div>
+                    </div>
+                    <h3>1. Staagy & Plan</h3>
+                    <p>Craft a customized roadmap using
+                        cutting-edge technology to drive
+                        efficiency and growth.</p>
+
+
+                </div>
+                <div class="TransCard1 cards">
+                    <div class="CardHead">
+                        <img src="Sources/79b8e877-bced-4ca1-a703-211b967e5f01.svg">
+                        <div class="arrow">
+                            <div class="aa"></div>
+                        </div>
+                    </div>
+                    <h3>3. Impliment Solutions</h3>
+                    <p>Deploy secure IT, BPO, e-commerce, or
+                        web development services with
+                        seamless integration.</p>
+
+
+                </div>
+                <div class="TransCard1 cards">
+                    <div class="CardHead">
+                        <img src="Sources/5c26d380-72db-4369-8b1d-5a4236d166c9.svg">
+                        <div class="arrow">
+                            <div class="aa"></div>
+                        </div>
+                    </div>
+                    <h3>4. Optimixe Performence</h3>
+                    <p>Leverage Al-driven insights and AlOps to
+                        enhance operations and reduce
+                        downtime.</p>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="Linkedin">
+                <button class="Follow RightButton"><a href="#">Follow us on Linkedin</a></button>
+            </div>
+        </section>
+
+        <section class="Service">
+            <div class="Solutions">
+                <div class="SS">
+                    <p>Services</p>
+                    <h2>Solutions WE <strong>Provide</strong> </h2>
+                </div>
+                <div class="UnlockPara">
+                    <p>Unlock your business potential with our innovative, SEO-optimized solutions designed for success.
+                    </p>
+                </div>
+                <div class="View">
+                    <button class="ViewB RightButton"><a href="#">All Services <i
+                                class="fa-solid fa-arrow-right"></i></a> </button>
+                </div>
+            </div>
+            <section class="ITServices">
+                <div class="ITImage">
+                    <img src="Sources/service-bg-h3.png">
+                </div>
+                <div class="ITbPO">
+                    <div class="IT opp">
+                        <a href="#"> IT SERVICES</a>
+                        <h3>01</h3>
+                    </div>
+                    <div class="BPO opp">
+                        <a href="#"> BPO</a>
+                        <h3>02</h3>
+                    </div>
+                    <div class="eCOMERCE opp">
+                        <a href="#"> ECOMERCE</a>
+                        <h3>03</h3>
+                    </div>
+                    <div class="Web opp">
+                        <a href="#"> WEB <br>DEVELOPMENT</a>
+                        <h3>04</h3>
+                    </div>
+                    <div class="AISolutions opp">
+                        <a href="#"> AI SOLUTIONS</a>
+                        <h3>05</h3>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="ServiceSlider">
+            <div class="slider-track">
+                <span class="rotate">IT SERVICES</span>
+                <span>•</span>
+                <span class="rotate">WEB DEVELOPMENT</span>
+                <span>•</span>
+                <span class="rotate">AI SOLUTIONS</span>
+                <span>•</span>
+                <span class="rotate">BPO</span>
+                <span>•</span>
+                <span class="rotate">E-COMMERCE</span>
+
+
+                <span>•</span>
+                <span class="rotate">IT SERVICES</span>
+                <span>•</span>
+                <span class="rotate">WEB DEVELOPMENT</span>
+                <span>•</span>
+                <span class="rotate">AI SOLUTIONS</span>
+                <span>•</span>
+                <span class="rotate">BPO</span>
+                <span>•</span>
+                <span class="rotate">E-COMMERCE</span>
+            </div>
+        </section>
+
+
+        <section class="Testimonials">
+            <p>Testimonials</p>
+            <h2>Our Clients
+                <strong>reviews</strong>
+            </h2>
+
+            <div class="TestimonialsSlider">
+                <div class="TSlide slide1">
+                    <p>Prinaynka Reddy, Marketing Head</p>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <p class="TP">The responsive website Oppty built for
+                        us perfectly captures our brand’s
+                        essence</p>
+                </div>
+                <div class="TSlide slide1">
+                    <p>Vikram Singh, Operation Manager</p>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <i class="fa-solid fa-star" style="color: #F97216;"></i>
+                    <p class="TP">Oppty’s BPO services streamlined our
+                        operations, letting us focus on growth.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="Clints">
+            <p>We are proud to partner with industry leaders.</p>
+            <h2>Our Valued
+                <strong>CLINTS</strong>
+            </h2>
+
+            <section class="LogoSlider">
+                <div class="logo-track">
+
+                    <img src="Sources/o1-150x150.png" alt="">
+                    <img src="Sources/o2-150x150.png " alt="">
+                    <img src="Sources/o3-150x150.png" alt="">
+                    <img src="Sources/o4-150x150.png" alt="">
+                    <img src="Sources/o5-150x150.png" alt="">
+                    <img src="Sources/o6-150x150.png" alt="">
+                    <img src="Sources/o7-150x150.png" alt="">
+                    <img src="Sources/o8-150x150.png" alt="">
+                    <img src="Sources/o9-150x150.png" alt="">
+
+
+                    <img src="Sources/o1-150x150.png" alt="">
+                    <img src="Sources/o2-150x150.png" alt="">
+                    <img src="Sources/o3-150x150.png" alt="">
+                    <img src="Sources/o4-150x150.png" alt="">
+                    <img src="Sources/o5-150x150.png" alt="">
+                    <img src="Sources/o6-150x150.png" alt="">
+                    <img src="Sources/o7-150x150.png" alt="">
+                    <img src="Sources/o8-150x150.png" alt="">
+                    <img src="Sources/o9-150x150.png" alt="">
+                </div>
+            </section>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <section class="Footer1">
+            <div class="addres">
+                <img src="Sources/322343.png">
+                <p>Power up your success with innovative IT, BPO, E-commerce, Web Development, and AI solutions tailored
+                    to your vision.</p>
+            </div>
+            <div class="Location HYD foothead">
+                <h3>HYDERABAD LOCATION</h3>
+                <P>Hyderabad - Flat number 601, Mahitha’s green galaxy, CBCID Colony, NRSA Colony, Bagath Singh Nagar
+                    Phase 2, Kukatpally, Hyderabad, Telangana 500085</P>
+            </div>
+            <div class="Location UDAY foothead">
+                <h3>UDAYPUR LOCATION</h3>
+                <P>Udaipur - Plot No: 26, 100 Feet Rd, Shobhagpura, Udaipur, Rajasthan 313011</P>
+
+            </div>
+            <div class="Contact foothead">
+                <h3>CONTACT US</h3>
+                <li><a href="mailto:harinath7503@gmail.com">info@oppty.in</a></li>
+                <li><a href="telto:9347876236">+91-9491209900</a></li>
+            </div>
+
+            <div class="QuikLinks foothead">
+                <h3>QUIK LINKS</h3>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </div>
+        </section>
+        <section class="Footer2">
+            <div class="NationalBox">
+                <div class="NationalImages">
+                    <img src="Sources/png-clipart-government-of-india-ministry-of-micro-small-and-medium-enterprises-small-business-india-text-logo__1_-removebg-preview.png"
+                        alt="MSME">
+
+                    <img src="Sources/Ministry-for-Corporate-AffairS-1-removebg-preview.png" alt="MCA">
+
+                    <img src="Sources/36662669-1685562943668-bf31f5769c66e.jpeg" alt="Startup India">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="Ecd">
+            <p> ©2025 Oppty. All Rights Reserved.</p>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>
